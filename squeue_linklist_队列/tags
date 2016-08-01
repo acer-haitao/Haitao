@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Linknode	queue.h	/^}Linknode;$/;"	t	typeref:struct:poiner
+NODE	queue.h	/^}NODE;$/;"	t	typeref:struct:node
+created	link_queue.c	/^void created(Linknode *H)$/;"	f	signature:(Linknode *H)
+created	queue.h	/^void created(Linknode *H);$/;"	p	signature:(Linknode *H)
+data	queue.h	/^	datatype data;$/;"	m	struct:node	access:public
+datatype	queue.h	/^typedef  int datatype;$/;"	t
+dequeue	link_queue.c	/^void dequeue(Linknode *H)$/;"	f	signature:(Linknode *H)
+dequeue	queue.h	/^void dequeue(Linknode *H);$/;"	p	signature:(Linknode *H)
+display	link_queue.c	/^void display(Linknode *H)$/;"	f	signature:(Linknode *H)
+display	queue.h	/^void display(Linknode *H);$/;"	p	signature:(Linknode *H)
+enqueue	link_queue.c	/^void enqueue(Linknode *H, int data)$/;"	f	signature:(Linknode *H, int data)
+enqueue	queue.h	/^void enqueue(Linknode *H, int data);$/;"	p	signature:(Linknode *H, int data)
+front	queue.h	/^	NODE *front;$/;"	m	struct:poiner	access:public
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+next	queue.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	access:public
+node	queue.h	/^typedef struct node{$/;"	s
+node::data	queue.h	/^	datatype data;$/;"	m	struct:node	access:public
+node::next	queue.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	access:public
+poiner	queue.h	/^typedef struct poiner{$/;"	s
+poiner::front	queue.h	/^	NODE *front;$/;"	m	struct:poiner	access:public
+poiner::rear	queue.h	/^	NODE *rear;$/;"	m	struct:poiner	access:public
+rear	queue.h	/^	NODE *rear;$/;"	m	struct:poiner	access:public

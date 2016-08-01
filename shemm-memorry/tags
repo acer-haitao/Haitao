@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_SIZE	shem.h	8;"	d
+array	shem.h	/^	unsigned short *array;$/;"	m	union:semun	access:public
+buf	shem.h	/^	struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds	access:public
+buffer	shem.h	/^	char buffer[BUF_SIZE];$/;"	m	struct:shm_buff	access:public
+del_sem	customer.c	/^int del_sem(int sem_id)$/;"	f	signature:(int sem_id)
+del_sem	sem.c	/^int del_sem(int sem_id)$/;"	f	signature:(int sem_id)
+del_sem	shem.h	/^int del_sem(int sem_id);$/;"	p	signature:(int sem_id)
+ignore_signal	customer.c	/^int ignore_signal(void)$/;"	f	signature:(void)
+ignore_signal	product.c	/^int ignore_signal(void)$/;"	f	signature:(void)
+init_sem	customer.c	/^int init_sem(int sem_id, int init_value)$/;"	f	signature:(int sem_id, int init_value)
+init_sem	sem.c	/^int init_sem(int sem_id, int init_value)$/;"	f	signature:(int sem_id, int init_value)
+init_sem	shem.h	/^int init_sem(int sem_id, int init_value);$/;"	p	signature:(int sem_id, int init_value)
+main	customer.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	product.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+pid	shem.h	/^	int pid;$/;"	m	struct:shm_buff	access:public
+sem_p	customer.c	/^int sem_p(int sem_id)$/;"	f	signature:(int sem_id)
+sem_p	sem.c	/^int sem_p(int sem_id)$/;"	f	signature:(int sem_id)
+sem_p	shem.h	/^int sem_p(int sem_id);$/;"	p	signature:(int sem_id)
+sem_v	customer.c	/^int sem_v(int sem_id)$/;"	f	signature:(int sem_id)
+sem_v	sem.c	/^int sem_v(int sem_id)$/;"	f	signature:(int sem_id)
+sem_v	shem.h	/^int sem_v(int sem_id);$/;"	p	signature:(int sem_id)
+semun	shem.h	/^union semun {$/;"	u
+semun::array	shem.h	/^	unsigned short *array;$/;"	m	union:semun	access:public
+semun::buf	shem.h	/^	struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds	access:public
+semun::val	shem.h	/^	int val;$/;"	m	union:semun	access:public
+shm_buff	shem.h	/^struct shm_buff{$/;"	s
+shm_buff::buffer	shem.h	/^	char buffer[BUF_SIZE];$/;"	m	struct:shm_buff	access:public
+shm_buff::pid	shem.h	/^	int pid;$/;"	m	struct:shm_buff	access:public
+val	shem.h	/^	int val;$/;"	m	union:semun	access:public

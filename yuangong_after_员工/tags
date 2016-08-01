@@ -1,0 +1,121 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD	client.c	14;"	d	file:
+ADD	server.c	15;"	d	file:
+ADM	client.c	22;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -lpthread $/;"	m
+CHANGE	client.c	12;"	d	file:
+CHANGE	server.c	13;"	d	file:
+DELETE	client.c	13;"	d	file:
+DELETE	server.c	14;"	d	file:
+FAILED	client.c	18;"	d	file:
+INFO	client.c	/^}INFO;$/;"	t	typeref:struct:__anon5	file:
+INFO	server.c	/^}INFO;$/;"	t	typeref:struct:__anon2	file:
+Info_rmark	server.c	/^int     Info_rmark = 0;\/\/文件Info.text互斥操作的读$/;"	v
+Info_wmark	server.c	/^int     Info_wmark = 0;\/\/文件Info.text互斥操作的写$/;"	v
+LOAD	client.c	15;"	d	file:
+LOAD	server.c	16;"	d	file:
+MSG	client.c	/^}MSG;$/;"	t	typeref:struct:__anon6	file:
+MSG	server.c	/^}MSG;$/;"	t	typeref:struct:__anon3	file:
+N	client.c	10;"	d	file:
+N	server.c	11;"	d	file:
+QUIT	client.c	16;"	d	file:
+QUIT	server.c	17;"	d	file:
+READ	client.c	11;"	d	file:
+READ	server.c	12;"	d	file:
+STAFF	client.c	21;"	d	file:
+SUCCESS	client.c	17;"	d	file:
+SUCCESS	server.c	18;"	d	file:
+USER	client.c	/^}USER;$/;"	t	typeref:struct:__anon4	file:
+USER	server.c	/^}USER;$/;"	t	typeref:struct:__anon1	file:
+User_rmark	server.c	/^int     User_rmark = 0;\/\/文件User.text互斥操作的读$/;"	v
+User_wmark	server.c	/^int     User_wmark = 0;\/\/文件User.text互斥操作的写$/;"	v
+__anon1::name	server.c	/^	char name[N];$/;"	m	struct:__anon1	file:	access:public
+__anon1::no	server.c	/^	int no;$/;"	m	struct:__anon1	file:	access:public
+__anon1::password	server.c	/^	char password[N];$/;"	m	struct:__anon1	file:	access:public
+__anon1::type	server.c	/^	int  type;\/\/判断是否为管理员$/;"	m	struct:__anon1	file:	access:public
+__anon2::addr	server.c	/^	char addr[N];\/\/地址 $/;"	m	struct:__anon2	file:	access:public
+__anon2::age	server.c	/^	int  age;\/\/年龄$/;"	m	struct:__anon2	file:	access:public
+__anon2::level	server.c	/^	int  level;\/\/评级$/;"	m	struct:__anon2	file:	access:public
+__anon2::name	server.c	/^	char name[N];\/\/姓名$/;"	m	struct:__anon2	file:	access:public
+__anon2::no	server.c	/^	int  no;\/\/编号$/;"	m	struct:__anon2	file:	access:public
+__anon2::phone	server.c	/^	char phone[N];\/\/手机号$/;"	m	struct:__anon2	file:	access:public
+__anon2::salary	server.c	/^	double  salary;\/\/工资$/;"	m	struct:__anon2	file:	access:public
+__anon2::type	server.c	/^	int type;\/\/员工级别$/;"	m	struct:__anon2	file:	access:public
+__anon3::data	server.c	/^	char data[N];\/\/操作成功或者失败的消息$/;"	m	struct:__anon3	file:	access:public
+__anon3::info	server.c	/^	INFO info;\/\/员工信息结构体$/;"	m	struct:__anon3	file:	access:public
+__anon3::name	server.c	/^	char name[N];\/\/发送消息的户$/;"	m	struct:__anon3	file:	access:public
+__anon3::password	server.c	/^	char password[N];\/\/用户密码在第一次登录时使用）$/;"	m	struct:__anon3	file:	access:public
+__anon3::sign	server.c	/^	int sign;$/;"	m	struct:__anon3	file:	access:public
+__anon3::type	server.c	/^	int type;\/\/判断操作类型 $/;"	m	struct:__anon3	file:	access:public
+__anon4::name	client.c	/^	char name[N];$/;"	m	struct:__anon4	file:	access:public
+__anon4::no	client.c	/^	int no;$/;"	m	struct:__anon4	file:	access:public
+__anon4::password	client.c	/^	char password[N];$/;"	m	struct:__anon4	file:	access:public
+__anon4::type	client.c	/^	int  type;\/\/判断是否为管理员$/;"	m	struct:__anon4	file:	access:public
+__anon5::addr	client.c	/^	char addr[N];\/\/地址$/;"	m	struct:__anon5	file:	access:public
+__anon5::age	client.c	/^	int  age;\/\/年龄$/;"	m	struct:__anon5	file:	access:public
+__anon5::level	client.c	/^	int  level;\/\/评级$/;"	m	struct:__anon5	file:	access:public
+__anon5::name	client.c	/^	char name[N];\/\/姓名$/;"	m	struct:__anon5	file:	access:public
+__anon5::no	client.c	/^	int  no;\/\/编号$/;"	m	struct:__anon5	file:	access:public
+__anon5::phone	client.c	/^	char phone[N];\/\/手机号$/;"	m	struct:__anon5	file:	access:public
+__anon5::salary	client.c	/^	double  salary;\/\/工资$/;"	m	struct:__anon5	file:	access:public
+__anon5::type	client.c	/^	int type;\/\/员工级别$/;"	m	struct:__anon5	file:	access:public
+__anon6::data	client.c	/^	char data[N];\/\/操作成功或者失败的消息$/;"	m	struct:__anon6	file:	access:public
+__anon6::info	client.c	/^	INFO info;\/\/员工信息结构体$/;"	m	struct:__anon6	file:	access:public
+__anon6::name	client.c	/^	char name[N];\/\/发送消息的户$/;"	m	struct:__anon6	file:	access:public
+__anon6::password	client.c	/^	char password[N];\/\/用户密码在第一次登录时使用）$/;"	m	struct:__anon6	file:	access:public
+__anon6::sign	client.c	/^	int sign;$/;"	m	struct:__anon6	file:	access:public
+__anon6::type	client.c	/^	int type;\/\/判断操作类型$/;"	m	struct:__anon6	file:	access:public
+addr	client.c	/^	char addr[N];\/\/地址$/;"	m	struct:__anon5	file:	access:public
+addr	server.c	/^	char addr[N];\/\/地址 $/;"	m	struct:__anon2	file:	access:public
+age	client.c	/^	int  age;\/\/年龄$/;"	m	struct:__anon5	file:	access:public
+age	server.c	/^	int  age;\/\/年龄$/;"	m	struct:__anon2	file:	access:public
+client_addusr	client.c	/^int client_addusr(int socketfd,MSG *msg)$/;"	f	signature:(int socketfd,MSG *msg)
+client_addusr	client.c	/^int client_addusr(int socketfd,MSG *msg);$/;"	p	file:	signature:(int socketfd,MSG *msg)
+data	client.c	/^	char data[N];\/\/操作成功或者失败的消息$/;"	m	struct:__anon6	file:	access:public
+data	server.c	/^	char data[N];\/\/操作成功或者失败的消息$/;"	m	struct:__anon3	file:	access:public
+findUser	server.c	/^void findUser(MSG *msg)$/;"	f	signature:(MSG *msg)
+findUser	server.c	/^void findUser(MSG *msg);$/;"	p	file:	signature:(MSG *msg)
+getMsg	server.c	/^int getMsg(int connectfd, MSG *msg)$/;"	f	signature:(int connectfd, MSG *msg)
+getMsg	server.c	/^int getMsg(int connectfd, MSG *msg);$/;"	p	file:	signature:(int connectfd, MSG *msg)
+info	client.c	/^	INFO info;\/\/员工信息结构体$/;"	m	struct:__anon6	file:	access:public
+info	server.c	/^	INFO info;\/\/员工信息结构体$/;"	m	struct:__anon3	file:	access:public
+level	client.c	/^	int  level;\/\/评级$/;"	m	struct:__anon5	file:	access:public
+level	server.c	/^	int  level;\/\/评级$/;"	m	struct:__anon2	file:	access:public
+main	client.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	server.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+name	client.c	/^	char name[N];$/;"	m	struct:__anon4	file:	access:public
+name	client.c	/^	char name[N];\/\/发送消息的户$/;"	m	struct:__anon6	file:	access:public
+name	client.c	/^	char name[N];\/\/姓名$/;"	m	struct:__anon5	file:	access:public
+name	server.c	/^	char name[N];$/;"	m	struct:__anon1	file:	access:public
+name	server.c	/^	char name[N];\/\/发送消息的户$/;"	m	struct:__anon3	file:	access:public
+name	server.c	/^	char name[N];\/\/姓名$/;"	m	struct:__anon2	file:	access:public
+no	client.c	/^	int  no;\/\/编号$/;"	m	struct:__anon5	file:	access:public
+no	client.c	/^	int no;$/;"	m	struct:__anon4	file:	access:public
+no	server.c	/^	int  no;\/\/编号$/;"	m	struct:__anon2	file:	access:public
+no	server.c	/^	int no;$/;"	m	struct:__anon1	file:	access:public
+password	client.c	/^	char password[N];$/;"	m	struct:__anon4	file:	access:public
+password	client.c	/^	char password[N];\/\/用户密码在第一次登录时使用）$/;"	m	struct:__anon6	file:	access:public
+password	server.c	/^	char password[N];$/;"	m	struct:__anon1	file:	access:public
+password	server.c	/^	char password[N];\/\/用户密码在第一次登录时使用）$/;"	m	struct:__anon3	file:	access:public
+phone	client.c	/^	char phone[N];\/\/手机号$/;"	m	struct:__anon5	file:	access:public
+phone	server.c	/^	char phone[N];\/\/手机号$/;"	m	struct:__anon2	file:	access:public
+pthread_function	server.c	/^void *pthread_function(void *arg)$/;"	f	signature:(void *arg)
+pthread_function	server.c	/^void *pthread_function(void *arg);$/;"	p	file:	signature:(void *arg)
+salary	client.c	/^	double  salary;\/\/工资$/;"	m	struct:__anon5	file:	access:public
+salary	server.c	/^	double  salary;\/\/工资$/;"	m	struct:__anon2	file:	access:public
+server_addusr	server.c	/^int server_addusr(MSG *msg)$/;"	f	signature:(MSG *msg)
+server_addusr	server.c	/^int server_addusr(MSG *msg);$/;"	p	file:	signature:(MSG *msg)
+sign	client.c	/^	int sign;$/;"	m	struct:__anon6	file:	access:public
+sign	server.c	/^	int sign;$/;"	m	struct:__anon3	file:	access:public
+type	client.c	/^	int  type;\/\/判断是否为管理员$/;"	m	struct:__anon4	file:	access:public
+type	client.c	/^	int type;\/\/判断操作类型$/;"	m	struct:__anon6	file:	access:public
+type	client.c	/^	int type;\/\/员工级别$/;"	m	struct:__anon5	file:	access:public
+type	server.c	/^	int  type;\/\/判断是否为管理员$/;"	m	struct:__anon1	file:	access:public
+type	server.c	/^	int type;\/\/判断操作类型 $/;"	m	struct:__anon3	file:	access:public
+type	server.c	/^	int type;\/\/员工级别$/;"	m	struct:__anon2	file:	access:public

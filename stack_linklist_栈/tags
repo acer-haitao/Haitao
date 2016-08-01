@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Datatype	stack.c	/^typedef  int Datatype;$/;"	t	file:
+Initial	stack.c	/^void Initial(SeqStack *s)\/\/构造栈 进栈 出栈 取栈顶元素$/;"	f	signature:(SeqStack *s)
+IsEmpty	stack.c	/^int IsEmpty(SeqStack *s)$/;"	f	signature:(SeqStack *s)
+IsFull	stack.c	/^int IsFull(SeqStack *s)$/;"	f	signature:(SeqStack *s)
+Linknode	linkstac.c	/^typedef struct Linknode{$/;"	s	file:
+Linknode	linkstac.c	/^}Linknode;$/;"	t	typeref:struct:Linknode	file:
+Linknode::data	linkstac.c	/^	datatype data;$/;"	m	struct:Linknode	file:	access:public
+Linknode::next	linkstac.c	/^	struct Linknode *next;$/;"	m	struct:Linknode	typeref:struct:Linknode::Linknode	file:	access:public
+Pop	stack.c	/^Datatype Pop(SeqStack *S)$/;"	f	signature:(SeqStack *S)
+Push	stack.c	/^int  Push(SeqStack *s, Datatype x)$/;"	f	signature:(SeqStack *s, Datatype x)
+STAC_SIZE	stack.c	10;"	d	file:
+SeqStack	stack.c	/^}SeqStack;$/;"	t	typeref:struct:node	file:
+Stack_create	linkstac.c	/^int Stack_create(Stacktop *S)$/;"	f	signature:(Stacktop *S)
+Stacktop	linkstac.c	/^typedef struct Stacktop {$/;"	s	file:
+Stacktop	linkstac.c	/^}Stacktop;$/;"	t	typeref:struct:Stacktop	file:
+Stacktop::top	linkstac.c	/^	Linknode *top;$/;"	m	struct:Stacktop	file:	access:public
+Top	stack.c	/^Datatype Top(SeqStack *S)$/;"	f	signature:(SeqStack *S)
+base	stack.c	/^	Datatype *base;$/;"	m	struct:node	file:	access:public
+conversion	stack.c	/^void conversion(int N, int B)$/;"	f	signature:(int N, int B)
+count	linkliststack.c	/^	int count;$/;"	m	struct:linkstack	file:	access:public
+data	linkliststack.c	/^	datatype data;$/;"	m	struct:node	file:	access:public
+data	linkstac.c	/^	datatype data;$/;"	m	struct:Linknode	file:	access:public
+datatype	linkliststack.c	/^typedef int datatype;$/;"	t	file:
+datatype	linkstac.c	/^typedef int datatype;$/;"	t	file:
+linkstack	linkliststack.c	/^typedef struct linkstack{$/;"	s	file:
+linkstack	linkliststack.c	/^}linkstack;\/* 栈顶指针：在栈顶操作删除添加 *\/$/;"	t	typeref:struct:linkstack	file:
+linkstack::count	linkliststack.c	/^	int count;$/;"	m	struct:linkstack	file:	access:public
+linkstack::top	linkliststack.c	/^	stacknode *top;$/;"	m	struct:linkstack	file:	access:public
+main	linkliststack.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	linkstac.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	stack.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+next	linkliststack.c	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+next	linkstac.c	/^	struct Linknode *next;$/;"	m	struct:Linknode	typeref:struct:Linknode::Linknode	file:	access:public
+node	linkliststack.c	/^typedef struct node{$/;"	s	file:
+node	stack.c	/^typedef struct node{$/;"	s	file:
+node::base	stack.c	/^	Datatype *base;$/;"	m	struct:node	file:	access:public
+node::data	linkliststack.c	/^	datatype data;$/;"	m	struct:node	file:	access:public
+node::next	linkliststack.c	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node::stacksize	stack.c	/^	int stacksize;$/;"	m	struct:node	file:	access:public
+node::top	stack.c	/^	Datatype *top;$/;"	m	struct:node	file:	access:public
+stack_clear	linkliststack.c	/^void stack_clear(linkstack *H)$/;"	f	signature:(linkstack *H)
+stack_create	linkliststack.c	/^linkstack *stack_create()$/;"	f
+stack_empty	linkliststack.c	/^int stack_empty(linkstack *H)$/;"	f	signature:(linkstack *H)
+stack_pop	linkliststack.c	/^int stack_pop(linkstack *H, int *e)$/;"	f	signature:(linkstack *H, int *e)
+stack_push	linkliststack.c	/^int stack_push(linkstack *H, datatype data)  \/* 压栈  *\/$/;"	f	signature:(linkstack *H, datatype data)
+stacknode	linkliststack.c	/^}stacknode;\/* 链表节点  *\/$/;"	t	typeref:struct:node	file:
+stacksize	stack.c	/^	int stacksize;$/;"	m	struct:node	file:	access:public
+top	linkliststack.c	/^	stacknode *top;$/;"	m	struct:linkstack	file:	access:public
+top	linkstac.c	/^	Linknode *top;$/;"	m	struct:Stacktop	file:	access:public
+top	stack.c	/^	Datatype *top;$/;"	m	struct:node	file:	access:public

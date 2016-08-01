@@ -1,0 +1,73 @@
+/*************************************************************************
+    > File Name: link_queue.c
+    > Author: yuhaitao
+    > Mail:acer_yuhaitao@163.com 
+    > Created Time: Sat 25 Jun 2016 10:44:38 PM PDT
+ ************************************************************************/
+
+#include <stdio.h>
+#include "queue.h"
+
+/***********************************************************************
+ * 队列：只允许在一端进行插入，而在另一端进行删除操作的线性表
+ * FIFO(First In First Out)允许插入的一端为队尾 允许删除的一端为队头
+ * 链式队列其实就是单链表只能尾进头出
+ ***********************************************************************/ 
+
+/* 创建队列以及初始化函数  */
+void created(Linknode *H)
+{	
+	/* 定义节点并初始化 */
+	NODE *M;
+	M = (NODE *)malloc(sizeof(NODE));
+	M->next = NULL;
+
+	/* 让队尾队首指向头节点 */
+	H->front = M;
+	H->rear = M;
+
+	return;
+}
+
+/* 入队函数  */
+void enqueue(Linknode *H, int data)
+{
+	NODE *P;
+	P = (NODE *)malloc(sizeof(NODE));
+	if (P == NULL)
+	{
+		printf("入队函数申请内存失败\n");
+		return;
+	}
+
+	P->data = data;
+	P->next = NULL;
+
+	H->rear->next = P;/* 让新节点挂在队尾  */
+	H->rear = P;/* 队尾指向P节点  */
+	printf("%d入队成功\n",data);
+	return;
+}
+
+/* 出队函数  */
+void dequeue(Linknode *H)
+{
+		return;
+}
+
+/* 显示队列中元素  */
+void display(Linknode H)
+{
+	NODE *M;
+	M = (NODE *)malloc(sizeof(NODE));
+	M = H.front->next; /* 指向第一个数据元素节点 */
+
+	while(M != NULL)
+	{
+		printf("data = %d\n",M->data);
+		M = M->next;/* 指向下一个节点  */
+	}
+	printf("显示结束\n");
+	return;
+}
+

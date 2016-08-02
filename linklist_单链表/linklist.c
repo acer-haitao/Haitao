@@ -9,6 +9,7 @@
 #include "linklist.h"
 #include <stdlib.h>
 
+/*-------------------------------start-------------------------------*/
 linknode *linklist_create(void)
 {
 	linklist H = NULL;
@@ -20,6 +21,9 @@ linknode *linklist_create(void)
 	H->data = 0;
 	return H;
 }
+/*--------------------------------end--------------------------------*/
+
+/*-------------------------------start-------------------------------*/
 int linklist_head_insert(linknode *H,  int value)//FILO先进后出（队列）
 {
 	linklist P = NULL;
@@ -34,6 +38,9 @@ int linklist_head_insert(linknode *H,  int value)//FILO先进后出（队列）
 
 	return 0;
 }
+/*--------------------------------end--------------------------------*/
+
+/*-------------------------------start-------------------------------*/
 int linklist_show(linknode *H)
 {
 	while(H->next)
@@ -44,6 +51,9 @@ int linklist_show(linknode *H)
 	putchar(10);
 	return 0;
 }
+/*--------------------------------end--------------------------------*/
+
+/*-------------------------------start-------------------------------*/
 int linklist_chose_insert(linklist H, int pos, int value)
 {
 	int i = 1;
@@ -61,6 +71,6 @@ int linklist_chose_insert(linklist H, int pos, int value)
 		i++;
 	}
 	
-	
 	return 0;
 }
+/*--------------------------------end--------------------------------*/

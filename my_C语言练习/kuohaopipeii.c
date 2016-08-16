@@ -18,7 +18,7 @@ int  is_match(char *str)
 		printf("NULL\n");
 		return false;
 	}
-#if 0
+#if 1
 	int len1 = 0, len2 = 0, len3 = 0, len4 = 0;
 	int len11 = 0, len22 = 0, len33 = 0, len44 = 0, flag = 0;
 	int i = 0;
@@ -51,7 +51,8 @@ int  is_match(char *str)
 		printf("len1 = %d len11 = %d\n", len1, len11);
 	}
 
-#endif
+
+#if 0
 	int i = 0;
 	int flag = 1;
 
@@ -78,10 +79,11 @@ int  is_match(char *str)
 		i++;
 	}
 }
-
+#endif
 int main(int argc, char *argv[])
 {
 	char *buf = "((1+2)))";
 	is_match(buf);
 	return 0;
 }
+#endif

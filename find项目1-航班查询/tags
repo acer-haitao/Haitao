@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddMation_list	fly_achieve.c	/^void AddMation_list(){$/;"	f
+BLUE	print.h	21;"	d
+BROWN	print.h	35;"	d
+CC	makefile	/^CC:=gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS:=-Wall -g -lpthread$/;"	m
+CLEAN	print.h	134;"	d
+CLEAR	print.h	132;"	d
+CLOSE	print.h	89;"	d
+CYAN	print.h	27;"	d
+DARY_GRAY	print.h	25;"	d
+DATE	fly_head.h	/^    char DATE[12];         \/\/班期$/;"	m	struct:flydate
+DOWN	print.h	123;"	d
+Delete_List	fly_achieve.c	/^void Delete_List(){$/;"	f
+F1	print.h	97;"	d
+F2	print.h	99;"	d
+F3	print.h	130;"	d
+F4	print.h	136;"	d
+F5	print.h	138;"	d
+F6	print.h	140;"	d
+F7	print.h	142;"	d
+GREEN	print.h	17;"	d
+HIGH	print.h	91;"	d
+ID	fly_head.h	/^    int  ID;               \/\/航班号$/;"	m	struct:flydate
+IS_load_file	fly_achieve.c	/^void IS_load_file(){$/;"	f
+LEFT	print.h	127;"	d
+LEFT1	print.h	128;"	d
+LIGHT	print.h	95;"	d
+LIGHT_BLUE	print.h	23;"	d
+LIGHT_CYAN	print.h	29;"	d
+LIGHT_GRAY	print.h	39;"	d
+LIGHT_GREEN	print.h	19;"	d
+LIGHT_PURPLE	print.h	33;"	d
+LIGHT_RED	print.h	15;"	d
+LINE	print.h	93;"	d
+NONE	print.h	11;"	d
+OBJ	makefile	/^OBJ:=${patsubst %.c,%.o,$(SRC)}#将Src中以.c为后缀的字符串替换成.o为后缀赋给OBJ$/;"	m
+PURPLE	print.h	31;"	d
+RED	print.h	13;"	d
+RIGHT	print.h	125;"	d
+Reorder_list	fly_achieve.c	/^void Reorder_list(){$/;"	f
+SRC	makefile	/^SRC:=${wildcard *.c} #将当前目录下的以.c为后缀的文件名赋给SRC$/;"	m
+TYPE	fly_head.h	/^    char TYPE[8];          \/\/机型$/;"	m	struct:flydate
+UP	print.h	121;"	d
+WHITE	print.h	41;"	d
+YELLOW	print.h	37;"	d
+_FLY_HEAD_H	fly_head.h	8;"	d
+arraddress	fly_head.h	/^    char arraddress[18];   \/\/终点站$/;"	m	struct:flydate
+atime	fly_head.h	/^    char atime[10];        \/\/到达时间$/;"	m	struct:flydate
+back1	print.h	110;"	d
+back2	print.h	111;"	d
+back3	print.h	112;"	d
+back4	print.h	113;"	d
+back5	print.h	114;"	d
+back6	print.h	115;"	d
+back7	print.h	116;"	d
+back8	print.h	117;"	d
+delete_1	fly_achieve.c	/^void delete_1(){$/;"	f
+delete_2	fly_achieve.c	/^void delete_2(){$/;"	f
+flag	fly_head.h	/^volatile static int flag = 1;$/;"	v
+fly_list	fly_head.h	/^}fly_list,*fly_plist;$/;"	t	typeref:struct:flydate
+fly_plist	fly_head.h	/^}fly_list,*fly_plist;$/;"	t	typeref:struct:flydate
+flydate	fly_head.h	/^typedef struct flydate{$/;"	s
+fore1	print.h	101;"	d
+fore2	print.h	102;"	d
+fore3	print.h	103;"	d
+fore4	print.h	104;"	d
+fore5	print.h	105;"	d
+fore6	print.h	106;"	d
+fore7	print.h	107;"	d
+fore8	print.h	108;"	d
+linklist_new	fly_achieve.c	/^void linklist_new(fly_plist *new){$/;"	f
+linklist_plist	fly_achieve.c	/^void linklist_plist(){$/;"	f
+main	main.c	/^int main(){$/;"	f
+next	fly_head.h	/^    struct flydate *next;$/;"	m	struct:flydate	typeref:struct:flydate::flydate
+plist	fly_head.h	/^volatile static fly_plist plist;$/;"	v
+save_ListToFile	fly_achieve.c	/^void save_ListToFile(){$/;"	f
+show_beybey	fly_achieve.c	/^void show_beybey(){$/;"	f
+show_list	fly_achieve.c	/^void show_list(char *str){$/;"	f
+show_main	fly_achieve.c	/^void *show_main(void *arg){$/;"	f
+staddress	fly_head.h	/^    char staddress[18];    \/\/起点站$/;"	m	struct:flydate
+stime	fly_head.h	/^    char stime[10];        \/\/起飞时间$/;"	m	struct:flydate
+value	fly_head.h	/^    int value;             \/\/票价$/;"	m	struct:flydate

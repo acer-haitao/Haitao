@@ -173,7 +173,7 @@ int main(int argc, char *argv[])
 	buf2 = (char **)malloc(100);
 	buf3 = (char *)malloc(100);
 	int max = 0;
-	char *str = "ababb1111111";
+	char *str = "ababb1118ababb1111";
 
 	printf("--------------分割线--------------\n");
 	printf("char *str1 = a1bcdefabcd123456789efag\n");
@@ -191,7 +191,7 @@ int main(int argc, char *argv[])
 
 	printf("--------------分割线--------------\n");
 	max = getsame_char(str);
-	printf("ababb1111111 -->The same char %d\n", max);
+	printf("%s -->The same char %d\n",str, max);
 
 	return 0;
 }

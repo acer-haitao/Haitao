@@ -15,8 +15,8 @@
 
 
 typedef struct message{
-	long msg_type;
-	char msg_text[BUF_SIZE];
+	long msg_type;//消息队列类型
+	char msg_text[BUF_SIZE];//消息数组
 }MSG;
 
 /*******************************************

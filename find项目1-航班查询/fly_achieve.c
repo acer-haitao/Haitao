@@ -31,12 +31,12 @@ void show_list(char *str){
 
 //显示航班信息界面
 void *show_main(void *arg){
-    fly_plist p, p1, p2, p3, p4, p5;
+    fly_plist p, p1, p2, p3, p4, p5;//定义结构体变量
     while(1){
         if( flag == -1 ){
             exit(-1);
         }
-        while(flag==1){
+        while(flag==1){//flag为全局变量
             system("clear");
             printf("|--------------------------------------------------------------------------------------------|\n");
             printf("|                                         航班查询系统                                       |\n");
@@ -78,10 +78,10 @@ void *show_main(void *arg){
             }else
             printf("|            |            |            |          |          |          |          |         |\n");
 
-            if(p!=NULL)
+            if(p!=NULL)//如果没到结尾 继续下一个
             p=p->next;
             if(p == NULL){
-                p=plist->next;
+                p=plist->next;//如果到达结尾处 重新赋值 plist为全局变量
             }
             printf("|--------------------------------------------------------------------------------------------|\n");
             printf("|                                            功能键                                          |\n");
@@ -97,9 +97,9 @@ void *show_main(void *arg){
 
 //增加航班数据  KO
 void AddMation_list(){
-    flag = 0;
+    flag = 0;//flag = 0 线程显示界面的不显示了
     fly_plist new, h=plist;
-    linklist_new(&new);
+    linklist_new(&new);//创建新节点 
 
     system("clear");
     printf("|--------------------------------------------------------------------------------------------|\n");
@@ -128,8 +128,8 @@ void AddMation_list(){
     while((h->next) != NULL){
         h = h->next;
     }
-    h->next = new;
-    save_ListToFile();
+    h->next = new;//尾插法 把新的航班信息插入链表
+    save_ListToFile();//将链表内信息导入本地文件
     sleep(1);
     flag = 1;
 }

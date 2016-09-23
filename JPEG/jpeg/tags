@@ -1,0 +1,782 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFLAGS	Makefile	/^AFLAGS=-Wall -g  $/;"	m
+Adobe_transform	jpeglib.h	/^  UINT8 Adobe_transform;	\/* Color transform code from Adobe marker *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+Ah	jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon5	access:public
+Ah	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+Ah	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+Al	jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon5	access:public
+Al	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+Al	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+C	Makefile	/^C=gcc$/;"	m
+CCIR601_sampling	jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_compress_struct	access:public
+CCIR601_sampling	jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+C_MAX_BLOCKS_IN_MCU	jpeglib.h	62;"	d
+DCTSIZE	jpeglib.h	48;"	d
+DCTSIZE2	jpeglib.h	49;"	d
+DCT_h_scaled_size	jpeglib.h	/^  int DCT_h_scaled_size;$/;"	m	struct:__anon4	access:public
+DCT_v_scaled_size	jpeglib.h	/^  int DCT_v_scaled_size;$/;"	m	struct:__anon4	access:public
+D_MAX_BLOCKS_IN_MCU	jpeglib.h	64;"	d
+JBLOCK	jpeglib.h	/^typedef JCOEF JBLOCK[DCTSIZE2];	\/* one block of coefficients *\/$/;"	t
+JBLOCKARRAY	jpeglib.h	/^typedef JBLOCKROW *JBLOCKARRAY;		\/* a 2-D array of coefficient blocks *\/$/;"	t
+JBLOCKIMAGE	jpeglib.h	/^typedef JBLOCKARRAY *JBLOCKIMAGE;	\/* a 3-D array of coefficient blocks *\/$/;"	t
+JBLOCKROW	jpeglib.h	/^typedef JBLOCK FAR *JBLOCKROW;	\/* pointer to one row of coefficient blocks *\/$/;"	t
+JCOEFPTR	jpeglib.h	/^typedef JCOEF FAR *JCOEFPTR;	\/* useful in a couple of places *\/$/;"	t
+JCS_CMYK	jpeglib.h	/^	JCS_CMYK,		\/* C\/M\/Y\/K *\/$/;"	e	enum:__anon6
+JCS_GRAYSCALE	jpeglib.h	/^	JCS_GRAYSCALE,		\/* monochrome *\/$/;"	e	enum:__anon6
+JCS_RGB	jpeglib.h	/^	JCS_RGB,		\/* red\/green\/blue *\/$/;"	e	enum:__anon6
+JCS_UNKNOWN	jpeglib.h	/^	JCS_UNKNOWN,		\/* error\/unspecified *\/$/;"	e	enum:__anon6
+JCS_YCCK	jpeglib.h	/^	JCS_YCCK		\/* Y\/Cb\/Cr\/K *\/$/;"	e	enum:__anon6
+JCS_YCbCr	jpeglib.h	/^	JCS_YCbCr,		\/* Y\/Cb\/Cr (also known as YUV) *\/$/;"	e	enum:__anon6
+JDCT_DEFAULT	jpeglib.h	231;"	d
+JDCT_FASTEST	jpeglib.h	234;"	d
+JDCT_FLOAT	jpeglib.h	/^	JDCT_FLOAT		\/* floating-point: accurate, fast on fast HW *\/$/;"	e	enum:__anon7
+JDCT_IFAST	jpeglib.h	/^	JDCT_IFAST,		\/* faster, less accurate integer method *\/$/;"	e	enum:__anon7
+JDCT_ISLOW	jpeglib.h	/^	JDCT_ISLOW,		\/* slow but accurate integer algorithm *\/$/;"	e	enum:__anon7
+JDITHER_FS	jpeglib.h	/^	JDITHER_FS		\/* Floyd-Steinberg error diffusion dither *\/$/;"	e	enum:__anon8
+JDITHER_NONE	jpeglib.h	/^	JDITHER_NONE,		\/* no dithering *\/$/;"	e	enum:__anon8
+JDITHER_ORDERED	jpeglib.h	/^	JDITHER_ORDERED,	\/* simple ordered dither *\/$/;"	e	enum:__anon8
+JFIF_major_version	jpeglib.h	/^  UINT8 JFIF_major_version;	\/* JFIF version number *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+JFIF_major_version	jpeglib.h	/^  UINT8 JFIF_major_version;	\/* What to write for the JFIF version number *\/$/;"	m	struct:jpeg_compress_struct	access:public
+JFIF_minor_version	jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_compress_struct	access:public
+JFIF_minor_version	jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_decompress_struct	access:public
+JHUFF_TBL	jpeglib.h	/^} JHUFF_TBL;$/;"	t	typeref:struct:__anon3
+JMETHOD	jpeglib.h	/^  JMETHOD(JBLOCKARRAY, access_virt_barray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JBLOCKARRAY, access_virt_barray, (j_common_ptr cinfo, jvirt_barray_ptr ptr, JDIMENSION start_row, JDIMENSION num_rows, boolean writable))
+JMETHOD	jpeglib.h	/^  JMETHOD(JBLOCKARRAY, alloc_barray, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JBLOCKARRAY, alloc_barray, (j_common_ptr cinfo, int pool_id, JDIMENSION blocksperrow, JDIMENSION numrows))
+JMETHOD	jpeglib.h	/^  JMETHOD(JSAMPARRAY, access_virt_sarray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JSAMPARRAY, access_virt_sarray, (j_common_ptr cinfo, jvirt_sarray_ptr ptr, JDIMENSION start_row, JDIMENSION num_rows, boolean writable))
+JMETHOD	jpeglib.h	/^  JMETHOD(JSAMPARRAY, alloc_sarray, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JSAMPARRAY, alloc_sarray, (j_common_ptr cinfo, int pool_id, JDIMENSION samplesperrow, JDIMENSION numrows))
+JMETHOD	jpeglib.h	/^  JMETHOD(boolean, empty_output_buffer, (j_compress_ptr cinfo));$/;"	p	struct:jpeg_destination_mgr	access:public	signature:(boolean, empty_output_buffer, (j_compress_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(boolean, fill_input_buffer, (j_decompress_ptr cinfo));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(boolean, fill_input_buffer, (j_decompress_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(boolean, resync_to_restart, (j_decompress_ptr cinfo, int desired));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(boolean, resync_to_restart, (j_decompress_ptr cinfo, int desired))
+JMETHOD	jpeglib.h	/^  JMETHOD(jvirt_barray_ptr, request_virt_barray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(jvirt_barray_ptr, request_virt_barray, (j_common_ptr cinfo, int pool_id, boolean pre_zero, JDIMENSION blocksperrow, JDIMENSION numrows, JDIMENSION maxaccess))
+JMETHOD	jpeglib.h	/^  JMETHOD(jvirt_sarray_ptr, request_virt_sarray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(jvirt_sarray_ptr, request_virt_sarray, (j_common_ptr cinfo, int pool_id, boolean pre_zero, JDIMENSION samplesperrow, JDIMENSION numrows, JDIMENSION maxaccess))
+JMETHOD	jpeglib.h	/^  JMETHOD(void *, alloc_small, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void *, alloc_small, (j_common_ptr cinfo, int pool_id, size_t sizeofobject))
+JMETHOD	jpeglib.h	/^  JMETHOD(void FAR *, alloc_large, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void FAR *, alloc_large, (j_common_ptr cinfo, int pool_id, size_t sizeofobject))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, emit_message, (j_common_ptr cinfo, int msg_level));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, emit_message, (j_common_ptr cinfo, int msg_level))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, error_exit, (j_common_ptr cinfo));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, error_exit, (j_common_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, format_message, (j_common_ptr cinfo, char * buffer));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, format_message, (j_common_ptr cinfo, char * buffer))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, free_pool, (j_common_ptr cinfo, int pool_id));$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void, free_pool, (j_common_ptr cinfo, int pool_id))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, init_destination, (j_compress_ptr cinfo));$/;"	p	struct:jpeg_destination_mgr	access:public	signature:(void, init_destination, (j_compress_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, init_source, (j_decompress_ptr cinfo));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(void, init_source, (j_decompress_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, output_message, (j_common_ptr cinfo));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, output_message, (j_common_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, progress_monitor, (j_common_ptr cinfo));$/;"	p	struct:jpeg_progress_mgr	access:public	signature:(void, progress_monitor, (j_common_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, realize_virt_arrays, (j_common_ptr cinfo));$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void, realize_virt_arrays, (j_common_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, reset_error_mgr, (j_common_ptr cinfo));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, reset_error_mgr, (j_common_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, self_destruct, (j_common_ptr cinfo));$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void, self_destruct, (j_common_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, skip_input_data, (j_decompress_ptr cinfo, long num_bytes));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(void, skip_input_data, (j_decompress_ptr cinfo, long num_bytes))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, term_destination, (j_compress_ptr cinfo));$/;"	p	struct:jpeg_destination_mgr	access:public	signature:(void, term_destination, (j_compress_ptr cinfo))
+JMETHOD	jpeglib.h	/^  JMETHOD(void, term_source, (j_decompress_ptr cinfo));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(void, term_source, (j_decompress_ptr cinfo))
+JMETHOD	jpeglib.h	/^typedef JMETHOD(boolean, jpeg_marker_parser_method, (j_decompress_ptr cinfo));$/;"	t
+JMSG_LENGTH_MAX	jpeglib.h	689;"	d
+JMSG_STR_PARM_MAX	jpeglib.h	697;"	d
+JPEGLIB_H	jpeglib.h	15;"	d
+JPEG_APP0	jpeglib.h	1103;"	d
+JPEG_COM	jpeglib.h	1104;"	d
+JPEG_EOI	jpeglib.h	1102;"	d
+JPEG_HEADER_OK	jpeglib.h	1021;"	d
+JPEG_HEADER_TABLES_ONLY	jpeglib.h	1022;"	d
+JPEG_LIB_VERSION	jpeglib.h	40;"	d
+JPEG_REACHED_EOI	jpeglib.h	1052;"	d
+JPEG_REACHED_SOS	jpeglib.h	1051;"	d
+JPEG_ROW_COMPLETED	jpeglib.h	1053;"	d
+JPEG_RST0	jpeglib.h	1101;"	d
+JPEG_SCAN_COMPLETED	jpeglib.h	1054;"	d
+JPEG_SUSPENDED	jpeglib.h	1020;"	d
+JPOOL_IMAGE	jpeglib.h	786;"	d
+JPOOL_NUMPOOLS	jpeglib.h	787;"	d
+JPOOL_PERMANENT	jpeglib.h	785;"	d
+JPP	jpeglib.h	855;"	d
+JPP	jpeglib.h	857;"	d
+JQUANT_TBL	jpeglib.h	/^} JQUANT_TBL;$/;"	t	typeref:struct:__anon2
+JSAMPARRAY	jpeglib.h	/^typedef JSAMPROW *JSAMPARRAY;	\/* ptr to some rows (a 2-D sample array) *\/$/;"	t
+JSAMPIMAGE	jpeglib.h	/^typedef JSAMPARRAY *JSAMPIMAGE;	\/* a 3-D sample array: top index is color *\/$/;"	t
+JSAMPROW	jpeglib.h	/^typedef JSAMPLE FAR *JSAMPROW;	\/* ptr to one image row of pixel samples. *\/$/;"	t
+J_COLOR_SPACE	jpeglib.h	/^} J_COLOR_SPACE;$/;"	t	typeref:enum:__anon6
+J_DCT_METHOD	jpeglib.h	/^} J_DCT_METHOD;$/;"	t	typeref:enum:__anon7
+J_DITHER_MODE	jpeglib.h	/^} J_DITHER_MODE;$/;"	t	typeref:enum:__anon8
+MAX_COMPS_IN_SCAN	jpeglib.h	53;"	d
+MAX_SAMP_FACTOR	jpeglib.h	54;"	d
+MCU_blocks	jpeglib.h	/^  int MCU_blocks;		\/* MCU_width * MCU_height *\/$/;"	m	struct:__anon4	access:public
+MCU_height	jpeglib.h	/^  int MCU_height;		\/* number of blocks per MCU, vertically *\/$/;"	m	struct:__anon4	access:public
+MCU_membership	jpeglib.h	/^  int MCU_membership[C_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_compress_struct	access:public
+MCU_membership	jpeglib.h	/^  int MCU_membership[D_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_decompress_struct	access:public
+MCU_rows_in_scan	jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+MCU_rows_in_scan	jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+MCU_sample_width	jpeglib.h	/^  int MCU_sample_width;	\/* MCU width in samples: MCU_width * DCT_h_scaled_size *\/$/;"	m	struct:__anon4	access:public
+MCU_width	jpeglib.h	/^  int MCU_width;		\/* number of blocks per MCU, horizontally *\/$/;"	m	struct:__anon4	access:public
+MCUs_per_row	jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+MCUs_per_row	jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+NUM_ARITH_TBLS	jpeglib.h	52;"	d
+NUM_HUFF_TBLS	jpeglib.h	51;"	d
+NUM_QUANT_TBLS	jpeglib.h	50;"	d
+OBJS	Makefile	/^OBJS=jpeg.cgi$/;"	m
+ROUND_0_255	convert.c	9;"	d	file:
+Se	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+Se	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+Se	jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon5	access:public
+Ss	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+Ss	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+Ss	jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon5	access:public
+X_density	jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_compress_struct	access:public
+X_density	jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+Y_density	jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_compress_struct	access:public
+Y_density	jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+__anon1::buffer	convert.c	/^	JOCTET *buffer;$/;"	m	struct:__anon1	file:	access:public
+__anon1::outbuffer	convert.c	/^	unsigned char *outbuffer;$/;"	m	struct:__anon1	file:	access:public
+__anon1::outbuffer_cursor	convert.c	/^	unsigned char *outbuffer_cursor;$/;"	m	struct:__anon1	file:	access:public
+__anon1::outbuffer_size	convert.c	/^	int outbuffer_size;$/;"	m	struct:__anon1	file:	access:public
+__anon1::pub	convert.c	/^	struct jpeg_destination_mgr pub;$/;"	m	struct:__anon1	typeref:struct:__anon1::jpeg_destination_mgr	file:	access:public
+__anon1::written	convert.c	/^	int *written;$/;"	m	struct:__anon1	file:	access:public
+__anon2::quantval	jpeglib.h	/^  UINT16 quantval[DCTSIZE2];	\/* quantization step for each coefficient *\/$/;"	m	struct:__anon2	access:public
+__anon2::sent_table	jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon2	access:public
+__anon3::bits	jpeglib.h	/^  UINT8 bits[17];		\/* bits[k] = # of symbols with codes of *\/$/;"	m	struct:__anon3	access:public
+__anon3::huffval	jpeglib.h	/^  UINT8 huffval[256];		\/* The symbols, in order of incr code length *\/$/;"	m	struct:__anon3	access:public
+__anon3::sent_table	jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon3	access:public
+__anon4::DCT_h_scaled_size	jpeglib.h	/^  int DCT_h_scaled_size;$/;"	m	struct:__anon4	access:public
+__anon4::DCT_v_scaled_size	jpeglib.h	/^  int DCT_v_scaled_size;$/;"	m	struct:__anon4	access:public
+__anon4::MCU_blocks	jpeglib.h	/^  int MCU_blocks;		\/* MCU_width * MCU_height *\/$/;"	m	struct:__anon4	access:public
+__anon4::MCU_height	jpeglib.h	/^  int MCU_height;		\/* number of blocks per MCU, vertically *\/$/;"	m	struct:__anon4	access:public
+__anon4::MCU_sample_width	jpeglib.h	/^  int MCU_sample_width;	\/* MCU width in samples: MCU_width * DCT_h_scaled_size *\/$/;"	m	struct:__anon4	access:public
+__anon4::MCU_width	jpeglib.h	/^  int MCU_width;		\/* number of blocks per MCU, horizontally *\/$/;"	m	struct:__anon4	access:public
+__anon4::ac_tbl_no	jpeglib.h	/^  int ac_tbl_no;		\/* AC entropy table selector (0..3) *\/$/;"	m	struct:__anon4	access:public
+__anon4::component_id	jpeglib.h	/^  int component_id;		\/* identifier for this component (0..255) *\/$/;"	m	struct:__anon4	access:public
+__anon4::component_index	jpeglib.h	/^  int component_index;		\/* its index in SOF or cinfo->comp_info[] *\/$/;"	m	struct:__anon4	access:public
+__anon4::component_needed	jpeglib.h	/^  boolean component_needed;	\/* do we need the value of this component? *\/$/;"	m	struct:__anon4	access:public
+__anon4::dc_tbl_no	jpeglib.h	/^  int dc_tbl_no;		\/* DC entropy table selector (0..3) *\/$/;"	m	struct:__anon4	access:public
+__anon4::dct_table	jpeglib.h	/^  void * dct_table;$/;"	m	struct:__anon4	access:public
+__anon4::downsampled_height	jpeglib.h	/^  JDIMENSION downsampled_height; \/* actual height in samples *\/$/;"	m	struct:__anon4	access:public
+__anon4::downsampled_width	jpeglib.h	/^  JDIMENSION downsampled_width;	 \/* actual width in samples *\/$/;"	m	struct:__anon4	access:public
+__anon4::h_samp_factor	jpeglib.h	/^  int h_samp_factor;		\/* horizontal sampling factor (1..4) *\/$/;"	m	struct:__anon4	access:public
+__anon4::height_in_blocks	jpeglib.h	/^  JDIMENSION height_in_blocks;$/;"	m	struct:__anon4	access:public
+__anon4::last_col_width	jpeglib.h	/^  int last_col_width;		\/* # of non-dummy blocks across in last MCU *\/$/;"	m	struct:__anon4	access:public
+__anon4::last_row_height	jpeglib.h	/^  int last_row_height;		\/* # of non-dummy blocks down in last MCU *\/$/;"	m	struct:__anon4	access:public
+__anon4::quant_table	jpeglib.h	/^  JQUANT_TBL * quant_table;$/;"	m	struct:__anon4	access:public
+__anon4::quant_tbl_no	jpeglib.h	/^  int quant_tbl_no;		\/* quantization table selector (0..3) *\/$/;"	m	struct:__anon4	access:public
+__anon4::v_samp_factor	jpeglib.h	/^  int v_samp_factor;		\/* vertical sampling factor (1..4) *\/$/;"	m	struct:__anon4	access:public
+__anon4::width_in_blocks	jpeglib.h	/^  JDIMENSION width_in_blocks;$/;"	m	struct:__anon4	access:public
+__anon5::Ah	jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon5	access:public
+__anon5::Al	jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon5	access:public
+__anon5::Se	jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon5	access:public
+__anon5::Ss	jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon5	access:public
+__anon5::component_index	jpeglib.h	/^  int component_index[MAX_COMPS_IN_SCAN]; \/* their SOF\/comp_info[] indexes *\/$/;"	m	struct:__anon5	access:public
+__anon5::comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* number of components encoded in this scan *\/$/;"	m	struct:__anon5	access:public
+ac_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+ac_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct	access:public
+ac_tbl_no	jpeglib.h	/^  int ac_tbl_no;		\/* AC entropy table selector (0..3) *\/$/;"	m	struct:__anon4	access:public
+actual_number_of_colors	jpeglib.h	/^  int actual_number_of_colors;	\/* number of entries in use *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+addon_message_table	jpeglib.h	/^  const char * const * addon_message_table; \/* Non-library errors *\/$/;"	m	struct:jpeg_error_mgr	access:public
+arith_ac_K	jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct	access:public
+arith_ac_K	jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+arith_code	jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_compress_struct	access:public
+arith_code	jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+arith_dc_L	jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct	access:public
+arith_dc_L	jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+arith_dc_U	jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct	access:public
+arith_dc_U	jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+badj	convert.c	/^static short badj[] = {$/;"	v	file:
+bits	jpeglib.h	/^  UINT8 bits[17];		\/* bits[k] = # of symbols with codes of *\/$/;"	m	struct:__anon3	access:public
+block_size	jpeglib.h	/^  int block_size;		\/* the basic DCT block size: 1..16 *\/$/;"	m	struct:jpeg_compress_struct	access:public
+block_size	jpeglib.h	/^  int block_size;		\/* the basic DCT block size: 1..16 *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+blocks_in_MCU	jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_compress_struct	access:public
+blocks_in_MCU	jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+buffer	convert.c	/^	JOCTET *buffer;$/;"	m	struct:__anon1	file:	access:public
+buffered_image	jpeglib.h	/^  boolean buffered_image;	\/* TRUE=multiple output passes *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+bytes_in_buffer	jpeglib.h	/^  size_t bytes_in_buffer;	\/* # of bytes remaining in buffer *\/$/;"	m	struct:jpeg_source_mgr	access:public
+cconvert	jpeglib.h	/^  struct jpeg_color_converter * cconvert;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_color_converter	access:public
+cconvert	jpeglib.h	/^  struct jpeg_color_deconverter * cconvert;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_deconverter	access:public
+cinfo	convert.c	/^	struct jpeg_compress_struct cinfo;$/;"	m	struct:jpeg_mgr_info	typeref:struct:jpeg_mgr_info::jpeg_compress_struct	file:	access:public
+coef	jpeglib.h	/^  struct jpeg_c_coef_controller * coef;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_coef_controller	access:public
+coef	jpeglib.h	/^  struct jpeg_d_coef_controller * coef;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_coef_controller	access:public
+coef_bits	jpeglib.h	/^  int (*coef_bits)[DCTSIZE2];	\/* -1 or current Al value for each coef *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+colormap	jpeglib.h	/^  JSAMPARRAY colormap;		\/* The color map as a 2-D pixel array *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+comp_info	jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_compress_struct	access:public
+comp_info	jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_decompress_struct	access:public
+completed_passes	jpeglib.h	/^  int completed_passes;		\/* passes completed so far *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+component_id	jpeglib.h	/^  int component_id;		\/* identifier for this component (0..255) *\/$/;"	m	struct:__anon4	access:public
+component_index	jpeglib.h	/^  int component_index;		\/* its index in SOF or cinfo->comp_info[] *\/$/;"	m	struct:__anon4	access:public
+component_index	jpeglib.h	/^  int component_index[MAX_COMPS_IN_SCAN]; \/* their SOF\/comp_info[] indexes *\/$/;"	m	struct:__anon5	access:public
+component_needed	jpeglib.h	/^  boolean component_needed;	\/* do we need the value of this component? *\/$/;"	m	struct:__anon4	access:public
+comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* number of components encoded in this scan *\/$/;"	m	struct:__anon5	access:public
+convert_rgb_to_jpg_exit	convert.c	/^void convert_rgb_to_jpg_exit(void)$/;"	f	signature:(void)
+convert_rgb_to_jpg_init	convert.c	/^void convert_rgb_to_jpg_init(void)$/;"	f	signature:(void)
+convert_rgb_to_jpg_work	convert.c	/^int convert_rgb_to_jpg_work(void *rgb, void *jpeg, unsigned int width, unsigned int height, unsigned int bpp, int quality)$/;"	f	signature:(void *rgb, void *jpeg, unsigned int width, unsigned int height, unsigned int bpp, int quality)
+convert_yuv_to_rgb	convert.c	/^void convert_yuv_to_rgb(void *yuv, void *rgb, unsigned int width, unsigned int height, unsigned int bps)$/;"	f	signature:(void *yuv, void *rgb, unsigned int width, unsigned int height, unsigned int bps)
+cquantize	jpeglib.h	/^  struct jpeg_color_quantizer * cquantize;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_quantizer	access:public
+cur_comp_info	jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_compress_struct	access:public
+cur_comp_info	jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_decompress_struct	access:public
+data	jpeglib.h	/^  JOCTET FAR * data;		\/* the data contained in the marker *\/$/;"	m	struct:jpeg_marker_struct	access:public
+data_length	jpeglib.h	/^  unsigned int data_length;	\/* # bytes of data saved at data[] *\/$/;"	m	struct:jpeg_marker_struct	access:public
+data_precision	jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_compress_struct	access:public
+data_precision	jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+dc_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+dc_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct	access:public
+dc_tbl_no	jpeglib.h	/^  int dc_tbl_no;		\/* DC entropy table selector (0..3) *\/$/;"	m	struct:__anon4	access:public
+dct_method	jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* DCT algorithm selector *\/$/;"	m	struct:jpeg_compress_struct	access:public
+dct_method	jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* IDCT algorithm selector *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+dct_table	jpeglib.h	/^  void * dct_table;$/;"	m	struct:__anon4	access:public
+density_unit	jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_compress_struct	access:public
+density_unit	jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+desired_number_of_colors	jpeglib.h	/^  int desired_number_of_colors;	\/* max # colors to use in created colormap *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+dest	jpeglib.h	/^  struct jpeg_destination_mgr * dest;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_destination_mgr	access:public
+dither_mode	jpeglib.h	/^  J_DITHER_MODE dither_mode;	\/* type of color dithering to use *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+do_block_smoothing	jpeglib.h	/^  boolean do_block_smoothing;	\/* TRUE=apply interblock smoothing *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+do_fancy_downsampling	jpeglib.h	/^  boolean do_fancy_downsampling; \/* TRUE=apply fancy downsampling *\/$/;"	m	struct:jpeg_compress_struct	access:public
+do_fancy_upsampling	jpeglib.h	/^  boolean do_fancy_upsampling;	\/* TRUE=apply fancy upsampling *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+downsample	jpeglib.h	/^  struct jpeg_downsampler * downsample;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_downsampler	access:public
+downsampled_height	jpeglib.h	/^  JDIMENSION downsampled_height; \/* actual height in samples *\/$/;"	m	struct:__anon4	access:public
+downsampled_width	jpeglib.h	/^  JDIMENSION downsampled_width;	 \/* actual width in samples *\/$/;"	m	struct:__anon4	access:public
+dummy	jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	m	struct:jpeg_c_coef_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	m	struct:jpeg_c_main_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	m	struct:jpeg_c_prep_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	m	struct:jpeg_color_converter	access:public
+dummy	jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	m	struct:jpeg_color_deconverter	access:public
+dummy	jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	m	struct:jpeg_color_quantizer	access:public
+dummy	jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	m	struct:jpeg_comp_master	access:public
+dummy	jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	m	struct:jpeg_d_coef_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	m	struct:jpeg_d_main_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	m	struct:jpeg_d_post_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	m	struct:jpeg_decomp_master	access:public
+dummy	jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	m	struct:jpeg_downsampler	access:public
+dummy	jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	m	struct:jpeg_entropy_decoder	access:public
+dummy	jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	m	struct:jpeg_entropy_encoder	access:public
+dummy	jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	m	struct:jpeg_forward_dct	access:public
+dummy	jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	m	struct:jpeg_input_controller	access:public
+dummy	jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	m	struct:jpeg_inverse_dct	access:public
+dummy	jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	m	struct:jpeg_marker_reader	access:public
+dummy	jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	m	struct:jpeg_marker_writer	access:public
+dummy	jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	m	struct:jpeg_upsampler	access:public
+dummy	jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	m	struct:jvirt_barray_control	access:public
+dummy	jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	m	struct:jvirt_sarray_control	access:public
+enable_1pass_quant	jpeglib.h	/^  boolean enable_1pass_quant;	\/* enable future use of 1-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+enable_2pass_quant	jpeglib.h	/^  boolean enable_2pass_quant;	\/* enable future use of 2-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+enable_external_quant	jpeglib.h	/^  boolean enable_external_quant;\/* enable future use of external colormap *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+entropy	jpeglib.h	/^  struct jpeg_entropy_decoder * entropy;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_entropy_decoder	access:public
+entropy	jpeglib.h	/^  struct jpeg_entropy_encoder * entropy;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_entropy_encoder	access:public
+fdct	jpeglib.h	/^  struct jpeg_forward_dct * fdct;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_forward_dct	access:public
+first_addon_message	jpeglib.h	/^  int first_addon_message;	\/* code for first string in addon table *\/$/;"	m	struct:jpeg_error_mgr	access:public
+free_in_buffer	jpeglib.h	/^  size_t free_in_buffer;	\/* # of byte spaces remaining in buffer *\/$/;"	m	struct:jpeg_destination_mgr	access:public
+gadj1	convert.c	/^static short gadj1[] = {$/;"	v	file:
+gadj2	convert.c	/^static short gadj2[] = {$/;"	v	file:
+h_samp_factor	jpeglib.h	/^  int h_samp_factor;		\/* horizontal sampling factor (1..4) *\/$/;"	m	struct:__anon4	access:public
+height_in_blocks	jpeglib.h	/^  JDIMENSION height_in_blocks;$/;"	m	struct:__anon4	access:public
+huffval	jpeglib.h	/^  UINT8 huffval[256];		\/* The symbols, in order of incr code length *\/$/;"	m	struct:__anon3	access:public
+i	jpeglib.h	/^    int i[8];$/;"	m	union:jpeg_error_mgr::__anon9	access:public
+idct	jpeglib.h	/^  struct jpeg_inverse_dct * idct;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_inverse_dct	access:public
+image_height	jpeglib.h	/^  JDIMENSION image_height;	\/* input image height *\/$/;"	m	struct:jpeg_compress_struct	access:public
+image_height	jpeglib.h	/^  JDIMENSION image_height;	\/* nominal image height *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+image_width	jpeglib.h	/^  JDIMENSION image_width;	\/* input image width *\/$/;"	m	struct:jpeg_compress_struct	access:public
+image_width	jpeglib.h	/^  JDIMENSION image_width;	\/* nominal image width (from SOF marker) *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+in_color_space	jpeglib.h	/^  J_COLOR_SPACE in_color_space;	\/* colorspace of input image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+input_components	jpeglib.h	/^  int input_components;		\/* # of color components in input image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+input_gamma	jpeglib.h	/^  double input_gamma;		\/* image gamma of input image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+input_iMCU_row	jpeglib.h	/^  JDIMENSION input_iMCU_row;	\/* Number of iMCU rows completed *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+input_scan_number	jpeglib.h	/^  int input_scan_number;	\/* Number of SOS markers seen so far *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+inputctl	jpeglib.h	/^  struct jpeg_input_controller * inputctl;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_input_controller	access:public
+is_baseline	jpeglib.h	/^  boolean is_baseline;		\/* TRUE if Baseline SOF0 encountered *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+j_common_ptr	jpeglib.h	/^typedef struct jpeg_common_struct * j_common_ptr;$/;"	t	typeref:struct:jpeg_common_struct
+j_compress_ptr	jpeglib.h	/^typedef struct jpeg_compress_struct * j_compress_ptr;$/;"	t	typeref:struct:jpeg_compress_struct
+j_decompress_ptr	jpeglib.h	/^typedef struct jpeg_decompress_struct * j_decompress_ptr;$/;"	t	typeref:struct:jpeg_decompress_struct
+jerr	convert.c	/^	struct jpeg_error_mgr jerr;$/;"	m	struct:jpeg_mgr_info	typeref:struct:jpeg_mgr_info::jpeg_error_mgr	file:	access:public
+jinfo	convert.c	/^static struct jpeg_mgr_info jinfo;$/;"	v	typeref:struct:jpeg_mgr_info	file:
+jpeg_CreateCompress	jpeglib.h	/^EXTERN(void) jpeg_CreateCompress JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, int version, size_t structsize)
+jpeg_CreateCompress	jpeglib.h	870;"	d
+jpeg_CreateDecompress	jpeglib.h	/^EXTERN(void) jpeg_CreateDecompress JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, int version, size_t structsize)
+jpeg_CreateDecompress	jpeglib.h	871;"	d
+jpeg_abort	jpeglib.h	/^EXTERN(void) jpeg_abort JPP((j_common_ptr cinfo));$/;"	p	signature:(j_common_ptr cinfo)
+jpeg_abort	jpeglib.h	919;"	d
+jpeg_abort_compress	jpeglib.h	/^EXTERN(void) jpeg_abort_compress JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_abort_compress	jpeglib.h	917;"	d
+jpeg_abort_decompress	jpeglib.h	/^EXTERN(void) jpeg_abort_decompress JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_abort_decompress	jpeglib.h	918;"	d
+jpeg_add_quant_table	jpeglib.h	/^EXTERN(void) jpeg_add_quant_table JPP((j_compress_ptr cinfo, int which_tbl,$/;"	p	signature:(j_compress_ptr cinfo, int which_tbl, const unsigned int *basic_table, int scale_factor, boolean force_baseline)
+jpeg_add_quant_table	jpeglib.h	884;"	d
+jpeg_alloc_huff_table	jpeglib.h	/^EXTERN(JHUFF_TBL *) jpeg_alloc_huff_table JPP((j_common_ptr cinfo));$/;"	p	signature:(j_common_ptr cinfo)
+jpeg_alloc_huff_table	jpeglib.h	889;"	d
+jpeg_alloc_quant_table	jpeglib.h	/^EXTERN(JQUANT_TBL *) jpeg_alloc_quant_table JPP((j_common_ptr cinfo));$/;"	p	signature:(j_common_ptr cinfo)
+jpeg_alloc_quant_table	jpeglib.h	888;"	d
+jpeg_c_coef_controller	jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	s
+jpeg_c_coef_controller::dummy	jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	m	struct:jpeg_c_coef_controller	access:public
+jpeg_c_main_controller	jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	s
+jpeg_c_main_controller::dummy	jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	m	struct:jpeg_c_main_controller	access:public
+jpeg_c_prep_controller	jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	s
+jpeg_c_prep_controller::dummy	jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	m	struct:jpeg_c_prep_controller	access:public
+jpeg_calc_jpeg_dimensions	jpeglib.h	/^EXTERN(void) jpeg_calc_jpeg_dimensions JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_calc_jpeg_dimensions	jpeglib.h	893;"	d
+jpeg_calc_output_dimensions	jpeglib.h	/^EXTERN(void) jpeg_calc_output_dimensions JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_calc_output_dimensions	jpeglib.h	911;"	d
+jpeg_color_converter	jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	s
+jpeg_color_converter::dummy	jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	m	struct:jpeg_color_converter	access:public
+jpeg_color_deconverter	jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	s
+jpeg_color_deconverter::dummy	jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	m	struct:jpeg_color_deconverter	access:public
+jpeg_color_quantizer	jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	s
+jpeg_color_quantizer::dummy	jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	m	struct:jpeg_color_quantizer	access:public
+jpeg_color_space	jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_color_space	jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields common to both master struct types *\/$/;"	m	struct:jpeg_common_struct	access:public
+jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_compress_struct *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_decompress_struct *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_common_fields	jpeglib.h	248;"	d
+jpeg_common_struct	jpeglib.h	/^struct jpeg_common_struct {$/;"	s
+jpeg_common_struct::jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields common to both master struct types *\/$/;"	m	struct:jpeg_common_struct	access:public
+jpeg_comp_master	jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	s
+jpeg_comp_master::dummy	jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	m	struct:jpeg_comp_master	access:public
+jpeg_component_info	jpeglib.h	/^} jpeg_component_info;$/;"	t	typeref:struct:__anon4
+jpeg_compress_struct	jpeglib.h	/^struct jpeg_compress_struct {$/;"	s
+jpeg_compress_struct::Ah	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::Al	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::CCIR601_sampling	jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::JFIF_major_version	jpeglib.h	/^  UINT8 JFIF_major_version;	\/* What to write for the JFIF version number *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::JFIF_minor_version	jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::MCU_membership	jpeglib.h	/^  int MCU_membership[C_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::MCU_rows_in_scan	jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::MCUs_per_row	jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::Se	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::Ss	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::X_density	jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::Y_density	jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::ac_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::arith_ac_K	jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::arith_code	jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::arith_dc_L	jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::arith_dc_U	jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::block_size	jpeglib.h	/^  int block_size;		\/* the basic DCT block size: 1..16 *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::blocks_in_MCU	jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::cconvert	jpeglib.h	/^  struct jpeg_color_converter * cconvert;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_color_converter	access:public
+jpeg_compress_struct::coef	jpeglib.h	/^  struct jpeg_c_coef_controller * coef;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_coef_controller	access:public
+jpeg_compress_struct::comp_info	jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::cur_comp_info	jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::data_precision	jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::dc_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::dct_method	jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* DCT algorithm selector *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::density_unit	jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::dest	jpeglib.h	/^  struct jpeg_destination_mgr * dest;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_destination_mgr	access:public
+jpeg_compress_struct::do_fancy_downsampling	jpeglib.h	/^  boolean do_fancy_downsampling; \/* TRUE=apply fancy downsampling *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::downsample	jpeglib.h	/^  struct jpeg_downsampler * downsample;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_downsampler	access:public
+jpeg_compress_struct::entropy	jpeglib.h	/^  struct jpeg_entropy_encoder * entropy;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_entropy_encoder	access:public
+jpeg_compress_struct::fdct	jpeglib.h	/^  struct jpeg_forward_dct * fdct;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_forward_dct	access:public
+jpeg_compress_struct::image_height	jpeglib.h	/^  JDIMENSION image_height;	\/* input image height *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::image_width	jpeglib.h	/^  JDIMENSION image_width;	\/* input image width *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::in_color_space	jpeglib.h	/^  J_COLOR_SPACE in_color_space;	\/* colorspace of input image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::input_components	jpeglib.h	/^  int input_components;		\/* # of color components in input image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::input_gamma	jpeglib.h	/^  double input_gamma;		\/* image gamma of input image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::jpeg_color_space	jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_decompress_struct *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::jpeg_height	jpeglib.h	/^  JDIMENSION jpeg_height;	\/* scaled JPEG image height *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::jpeg_width	jpeglib.h	/^  JDIMENSION jpeg_width;	\/* scaled JPEG image width *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::lim_Se	jpeglib.h	/^  int lim_Se;			\/* min( Se, DCTSIZE2-1 ) *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::main	jpeglib.h	/^  struct jpeg_c_main_controller * main;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_main_controller	access:public
+jpeg_compress_struct::marker	jpeglib.h	/^  struct jpeg_marker_writer * marker;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_marker_writer	access:public
+jpeg_compress_struct::master	jpeglib.h	/^  struct jpeg_comp_master * master;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_comp_master	access:public
+jpeg_compress_struct::max_h_samp_factor	jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::max_v_samp_factor	jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::min_DCT_h_scaled_size	jpeglib.h	/^  int min_DCT_h_scaled_size;	\/* smallest DCT_h_scaled_size of any component *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::min_DCT_v_scaled_size	jpeglib.h	/^  int min_DCT_v_scaled_size;	\/* smallest DCT_v_scaled_size of any component *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::natural_order	jpeglib.h	/^  const int * natural_order;	\/* natural-order position array *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::next_scanline	jpeglib.h	/^  JDIMENSION next_scanline;	\/* 0 .. image_height-1  *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::num_components	jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::num_scans	jpeglib.h	/^  int num_scans;		\/* # of entries in scan_info array *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::optimize_coding	jpeglib.h	/^  boolean optimize_coding;	\/* TRUE=optimize entropy encoding parms *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::prep	jpeglib.h	/^  struct jpeg_c_prep_controller * prep;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_prep_controller	access:public
+jpeg_compress_struct::progressive_mode	jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if scan script uses progressive mode *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::q_scale_factor	jpeglib.h	/^  int q_scale_factor[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::quant_tbl_ptrs	jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::raw_data_in	jpeglib.h	/^  boolean raw_data_in;		\/* TRUE=caller supplies downsampled data *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::restart_in_rows	jpeglib.h	/^  int restart_in_rows;		\/* if > 0, MCU rows per restart interval *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::restart_interval	jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart, or 0 for no restart *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::scale_denom	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::scale_num	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::scan_info	jpeglib.h	/^  const jpeg_scan_info * scan_info; \/* script for multi-scan file, or NULL *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::script_space	jpeglib.h	/^  jpeg_scan_info * script_space; \/* workspace for jpeg_simple_progression *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::script_space_size	jpeglib.h	/^  int script_space_size;$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::smoothing_factor	jpeglib.h	/^  int smoothing_factor;		\/* 1..100, or 0 for no input smoothing *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::total_iMCU_rows	jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows to be input to coef ctlr *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::write_Adobe_marker	jpeglib.h	/^  boolean write_Adobe_marker;	\/* should an Adobe marker be written? *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_compress_struct::write_JFIF_header	jpeglib.h	/^  boolean write_JFIF_header;	\/* should a JFIF marker be written? *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_consume_input	jpeglib.h	/^EXTERN(int) jpeg_consume_input JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_consume_input	jpeglib.h	909;"	d
+jpeg_copy_critical_parameters	jpeglib.h	/^EXTERN(void) jpeg_copy_critical_parameters JPP((j_decompress_ptr srcinfo,$/;"	p	signature:(j_decompress_ptr srcinfo, j_compress_ptr dstinfo)
+jpeg_copy_critical_parameters	jpeglib.h	916;"	d
+jpeg_core_output_dimensions	jpeglib.h	/^EXTERN(void) jpeg_core_output_dimensions JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_core_output_dimensions	jpeglib.h	910;"	d
+jpeg_create_compress	jpeglib.h	936;"	d
+jpeg_create_decompress	jpeglib.h	939;"	d
+jpeg_d_coef_controller	jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	s
+jpeg_d_coef_controller::dummy	jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	m	struct:jpeg_d_coef_controller	access:public
+jpeg_d_main_controller	jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	s
+jpeg_d_main_controller::dummy	jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	m	struct:jpeg_d_main_controller	access:public
+jpeg_d_post_controller	jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	s
+jpeg_d_post_controller::dummy	jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	m	struct:jpeg_d_post_controller	access:public
+jpeg_decomp_master	jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	s
+jpeg_decomp_master::dummy	jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	m	struct:jpeg_decomp_master	access:public
+jpeg_decompress_struct	jpeglib.h	/^struct jpeg_decompress_struct {$/;"	s
+jpeg_decompress_struct::Adobe_transform	jpeglib.h	/^  UINT8 Adobe_transform;	\/* Color transform code from Adobe marker *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::Ah	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::Al	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::CCIR601_sampling	jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::JFIF_major_version	jpeglib.h	/^  UINT8 JFIF_major_version;	\/* JFIF version number *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::JFIF_minor_version	jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::MCU_membership	jpeglib.h	/^  int MCU_membership[D_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::MCU_rows_in_scan	jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::MCUs_per_row	jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::Se	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::Ss	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::X_density	jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::Y_density	jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::ac_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::actual_number_of_colors	jpeglib.h	/^  int actual_number_of_colors;	\/* number of entries in use *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::arith_ac_K	jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::arith_code	jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::arith_dc_L	jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::arith_dc_U	jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::block_size	jpeglib.h	/^  int block_size;		\/* the basic DCT block size: 1..16 *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::blocks_in_MCU	jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::buffered_image	jpeglib.h	/^  boolean buffered_image;	\/* TRUE=multiple output passes *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::cconvert	jpeglib.h	/^  struct jpeg_color_deconverter * cconvert;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_deconverter	access:public
+jpeg_decompress_struct::coef	jpeglib.h	/^  struct jpeg_d_coef_controller * coef;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_coef_controller	access:public
+jpeg_decompress_struct::coef_bits	jpeglib.h	/^  int (*coef_bits)[DCTSIZE2];	\/* -1 or current Al value for each coef *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::colormap	jpeglib.h	/^  JSAMPARRAY colormap;		\/* The color map as a 2-D pixel array *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::comp_info	jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::cquantize	jpeglib.h	/^  struct jpeg_color_quantizer * cquantize;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_quantizer	access:public
+jpeg_decompress_struct::cur_comp_info	jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::data_precision	jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::dc_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::dct_method	jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* IDCT algorithm selector *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::density_unit	jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::desired_number_of_colors	jpeglib.h	/^  int desired_number_of_colors;	\/* max # colors to use in created colormap *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::dither_mode	jpeglib.h	/^  J_DITHER_MODE dither_mode;	\/* type of color dithering to use *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::do_block_smoothing	jpeglib.h	/^  boolean do_block_smoothing;	\/* TRUE=apply interblock smoothing *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::do_fancy_upsampling	jpeglib.h	/^  boolean do_fancy_upsampling;	\/* TRUE=apply fancy upsampling *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::enable_1pass_quant	jpeglib.h	/^  boolean enable_1pass_quant;	\/* enable future use of 1-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::enable_2pass_quant	jpeglib.h	/^  boolean enable_2pass_quant;	\/* enable future use of 2-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::enable_external_quant	jpeglib.h	/^  boolean enable_external_quant;\/* enable future use of external colormap *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::entropy	jpeglib.h	/^  struct jpeg_entropy_decoder * entropy;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_entropy_decoder	access:public
+jpeg_decompress_struct::idct	jpeglib.h	/^  struct jpeg_inverse_dct * idct;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_inverse_dct	access:public
+jpeg_decompress_struct::image_height	jpeglib.h	/^  JDIMENSION image_height;	\/* nominal image height *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::image_width	jpeglib.h	/^  JDIMENSION image_width;	\/* nominal image width (from SOF marker) *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::input_iMCU_row	jpeglib.h	/^  JDIMENSION input_iMCU_row;	\/* Number of iMCU rows completed *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::input_scan_number	jpeglib.h	/^  int input_scan_number;	\/* Number of SOS markers seen so far *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::inputctl	jpeglib.h	/^  struct jpeg_input_controller * inputctl;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_input_controller	access:public
+jpeg_decompress_struct::is_baseline	jpeglib.h	/^  boolean is_baseline;		\/* TRUE if Baseline SOF0 encountered *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::jpeg_color_space	jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_compress_struct *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::lim_Se	jpeglib.h	/^  int lim_Se;			\/* min( Se, DCTSIZE2-1 ) for entropy decode *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::main	jpeglib.h	/^  struct jpeg_d_main_controller * main;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_main_controller	access:public
+jpeg_decompress_struct::marker	jpeglib.h	/^  struct jpeg_marker_reader * marker;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_marker_reader	access:public
+jpeg_decompress_struct::marker_list	jpeglib.h	/^  jpeg_saved_marker_ptr marker_list; \/* Head of list of saved markers *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::master	jpeglib.h	/^  struct jpeg_decomp_master * master;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_decomp_master	access:public
+jpeg_decompress_struct::max_h_samp_factor	jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::max_v_samp_factor	jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::min_DCT_h_scaled_size	jpeglib.h	/^  int min_DCT_h_scaled_size;	\/* smallest DCT_h_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::min_DCT_v_scaled_size	jpeglib.h	/^  int min_DCT_v_scaled_size;	\/* smallest DCT_v_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::natural_order	jpeglib.h	/^  const int * natural_order; \/* natural-order position array for entropy decode *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::num_components	jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::out_color_components	jpeglib.h	/^  int out_color_components;	\/* # of color components in out_color_space *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::out_color_space	jpeglib.h	/^  J_COLOR_SPACE out_color_space; \/* colorspace for output *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_components	jpeglib.h	/^  int output_components;	\/* # of color components returned *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_gamma	jpeglib.h	/^  double output_gamma;		\/* image gamma wanted in output *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_height	jpeglib.h	/^  JDIMENSION output_height;	\/* scaled image height *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_iMCU_row	jpeglib.h	/^  JDIMENSION output_iMCU_row;	\/* Number of iMCU rows read *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_scan_number	jpeglib.h	/^  int output_scan_number;	\/* Nominal scan number being displayed *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_scanline	jpeglib.h	/^  JDIMENSION output_scanline;	\/* 0 .. output_height-1  *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::output_width	jpeglib.h	/^  JDIMENSION output_width;	\/* scaled image width *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::post	jpeglib.h	/^  struct jpeg_d_post_controller * post;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_post_controller	access:public
+jpeg_decompress_struct::progressive_mode	jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if SOFn specifies progressive mode *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::quant_tbl_ptrs	jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::quantize_colors	jpeglib.h	/^  boolean quantize_colors;	\/* TRUE=colormapped output wanted *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::raw_data_out	jpeglib.h	/^  boolean raw_data_out;		\/* TRUE=downsampled data wanted *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::rec_outbuf_height	jpeglib.h	/^  int rec_outbuf_height;	\/* min recommended height of scanline buffer *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::restart_interval	jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart interval, or 0 for no restart *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::sample_range_limit	jpeglib.h	/^  JSAMPLE * sample_range_limit; \/* table for fast range-limiting *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::saw_Adobe_marker	jpeglib.h	/^  boolean saw_Adobe_marker;	\/* TRUE iff an Adobe APP14 marker was found *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::saw_JFIF_marker	jpeglib.h	/^  boolean saw_JFIF_marker;	\/* TRUE iff a JFIF APP0 marker was found *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::scale_denom	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::scale_num	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::src	jpeglib.h	/^  struct jpeg_source_mgr * src;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_source_mgr	access:public
+jpeg_decompress_struct::total_iMCU_rows	jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows in image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::two_pass_quantize	jpeglib.h	/^  boolean two_pass_quantize;	\/* TRUE=use two-pass color quantization *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::unread_marker	jpeglib.h	/^  int unread_marker;$/;"	m	struct:jpeg_decompress_struct	access:public
+jpeg_decompress_struct::upsample	jpeglib.h	/^  struct jpeg_upsampler * upsample;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_upsampler	access:public
+jpeg_default_colorspace	jpeglib.h	/^EXTERN(void) jpeg_default_colorspace JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_default_colorspace	jpeglib.h	880;"	d
+jpeg_default_qtables	jpeglib.h	/^EXTERN(void) jpeg_default_qtables JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, boolean force_baseline)
+jpeg_default_qtables	jpeglib.h	883;"	d
+jpeg_dest_mgr	convert.c	/^} jpeg_dest_mgr, *jpeg_dest_mgr_ptr;$/;"	t	typeref:struct:__anon1	file:
+jpeg_dest_mgr_ptr	convert.c	/^} jpeg_dest_mgr, *jpeg_dest_mgr_ptr;$/;"	t	typeref:struct:__anon1	file:
+jpeg_destination_mgr	jpeglib.h	/^struct jpeg_destination_mgr {$/;"	s
+jpeg_destination_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(boolean, empty_output_buffer, (j_compress_ptr cinfo));$/;"	p	struct:jpeg_destination_mgr	access:public	signature:(boolean, empty_output_buffer, (j_compress_ptr cinfo))
+jpeg_destination_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, init_destination, (j_compress_ptr cinfo));$/;"	p	struct:jpeg_destination_mgr	access:public	signature:(void, init_destination, (j_compress_ptr cinfo))
+jpeg_destination_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, term_destination, (j_compress_ptr cinfo));$/;"	p	struct:jpeg_destination_mgr	access:public	signature:(void, term_destination, (j_compress_ptr cinfo))
+jpeg_destination_mgr::free_in_buffer	jpeglib.h	/^  size_t free_in_buffer;	\/* # of byte spaces remaining in buffer *\/$/;"	m	struct:jpeg_destination_mgr	access:public
+jpeg_destination_mgr::next_output_byte	jpeglib.h	/^  JOCTET * next_output_byte;	\/* => next byte to write in buffer *\/$/;"	m	struct:jpeg_destination_mgr	access:public
+jpeg_destroy	jpeglib.h	/^EXTERN(void) jpeg_destroy JPP((j_common_ptr cinfo));$/;"	p	signature:(j_common_ptr cinfo)
+jpeg_destroy	jpeglib.h	920;"	d
+jpeg_destroy_compress	jpeglib.h	/^EXTERN(void) jpeg_destroy_compress JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_destroy_compress	jpeglib.h	872;"	d
+jpeg_destroy_decompress	jpeglib.h	/^EXTERN(void) jpeg_destroy_decompress JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_destroy_decompress	jpeglib.h	873;"	d
+jpeg_downsampler	jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	s
+jpeg_downsampler::dummy	jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	m	struct:jpeg_downsampler	access:public
+jpeg_entropy_decoder	jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	s
+jpeg_entropy_decoder::dummy	jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	m	struct:jpeg_entropy_decoder	access:public
+jpeg_entropy_encoder	jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	s
+jpeg_entropy_encoder::dummy	jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	m	struct:jpeg_entropy_encoder	access:public
+jpeg_error_mgr	jpeglib.h	/^struct jpeg_error_mgr {$/;"	s
+jpeg_error_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, emit_message, (j_common_ptr cinfo, int msg_level));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, emit_message, (j_common_ptr cinfo, int msg_level))
+jpeg_error_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, error_exit, (j_common_ptr cinfo));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, error_exit, (j_common_ptr cinfo))
+jpeg_error_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, format_message, (j_common_ptr cinfo, char * buffer));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, format_message, (j_common_ptr cinfo, char * buffer))
+jpeg_error_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, output_message, (j_common_ptr cinfo));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, output_message, (j_common_ptr cinfo))
+jpeg_error_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, reset_error_mgr, (j_common_ptr cinfo));$/;"	p	struct:jpeg_error_mgr	access:public	signature:(void, reset_error_mgr, (j_common_ptr cinfo))
+jpeg_error_mgr::__anon9::i	jpeglib.h	/^    int i[8];$/;"	m	union:jpeg_error_mgr::__anon9	access:public
+jpeg_error_mgr::__anon9::s	jpeglib.h	/^    char s[JMSG_STR_PARM_MAX];$/;"	m	union:jpeg_error_mgr::__anon9	access:public
+jpeg_error_mgr::addon_message_table	jpeglib.h	/^  const char * const * addon_message_table; \/* Non-library errors *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::first_addon_message	jpeglib.h	/^  int first_addon_message;	\/* code for first string in addon table *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::jpeg_message_table	jpeglib.h	/^  const char * const * jpeg_message_table; \/* Library errors *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::last_addon_message	jpeglib.h	/^  int last_addon_message;	\/* code for last string in addon table *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::last_jpeg_message	jpeglib.h	/^  int last_jpeg_message;    \/* Table contains strings 0..last_jpeg_message *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::msg_code	jpeglib.h	/^  int msg_code;$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::msg_parm	jpeglib.h	/^  } msg_parm;$/;"	m	struct:jpeg_error_mgr	typeref:union:jpeg_error_mgr::__anon9	access:public
+jpeg_error_mgr::num_warnings	jpeglib.h	/^  long num_warnings;		\/* number of corrupt-data warnings *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_error_mgr::trace_level	jpeglib.h	/^  int trace_level;		\/* max msg_level that will be displayed *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_finish_compress	jpeglib.h	/^EXTERN(void) jpeg_finish_compress JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_finish_compress	jpeglib.h	892;"	d
+jpeg_finish_decompress	jpeglib.h	/^EXTERN(boolean) jpeg_finish_decompress JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_finish_decompress	jpeglib.h	902;"	d
+jpeg_finish_output	jpeglib.h	/^EXTERN(boolean) jpeg_finish_output JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_finish_output	jpeglib.h	906;"	d
+jpeg_forward_dct	jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	s
+jpeg_forward_dct::dummy	jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	m	struct:jpeg_forward_dct	access:public
+jpeg_has_multiple_scans	jpeglib.h	/^EXTERN(boolean) jpeg_has_multiple_scans JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_has_multiple_scans	jpeglib.h	904;"	d
+jpeg_height	jpeglib.h	/^  JDIMENSION jpeg_height;	\/* scaled JPEG image height *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_input_complete	jpeglib.h	/^EXTERN(boolean) jpeg_input_complete JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_input_complete	jpeglib.h	907;"	d
+jpeg_input_controller	jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	s
+jpeg_input_controller::dummy	jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	m	struct:jpeg_input_controller	access:public
+jpeg_inverse_dct	jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	s
+jpeg_inverse_dct::dummy	jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	m	struct:jpeg_inverse_dct	access:public
+jpeg_marker_reader	jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	s
+jpeg_marker_reader::dummy	jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	m	struct:jpeg_marker_reader	access:public
+jpeg_marker_struct	jpeglib.h	/^struct jpeg_marker_struct {$/;"	s
+jpeg_marker_struct::data	jpeglib.h	/^  JOCTET FAR * data;		\/* the data contained in the marker *\/$/;"	m	struct:jpeg_marker_struct	access:public
+jpeg_marker_struct::data_length	jpeglib.h	/^  unsigned int data_length;	\/* # bytes of data saved at data[] *\/$/;"	m	struct:jpeg_marker_struct	access:public
+jpeg_marker_struct::marker	jpeglib.h	/^  UINT8 marker;			\/* marker code: JPEG_COM, or JPEG_APP0+n *\/$/;"	m	struct:jpeg_marker_struct	access:public
+jpeg_marker_struct::next	jpeglib.h	/^  jpeg_saved_marker_ptr next;	\/* next in list, or NULL *\/$/;"	m	struct:jpeg_marker_struct	access:public
+jpeg_marker_struct::original_length	jpeglib.h	/^  unsigned int original_length;	\/* # bytes of data in the file *\/$/;"	m	struct:jpeg_marker_struct	access:public
+jpeg_marker_writer	jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	s
+jpeg_marker_writer::dummy	jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	m	struct:jpeg_marker_writer	access:public
+jpeg_mem_dest	jpeglib.h	/^EXTERN(void) jpeg_mem_dest JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, unsigned char ** outbuffer, unsigned long * outsize)
+jpeg_mem_dest	jpeglib.h	876;"	d
+jpeg_mem_src	jpeglib.h	/^EXTERN(void) jpeg_mem_src JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, unsigned char * inbuffer, unsigned long insize)
+jpeg_mem_src	jpeglib.h	877;"	d
+jpeg_memory_mgr	jpeglib.h	/^struct jpeg_memory_mgr {$/;"	s
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(JBLOCKARRAY, access_virt_barray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JBLOCKARRAY, access_virt_barray, (j_common_ptr cinfo, jvirt_barray_ptr ptr, JDIMENSION start_row, JDIMENSION num_rows, boolean writable))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(JBLOCKARRAY, alloc_barray, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JBLOCKARRAY, alloc_barray, (j_common_ptr cinfo, int pool_id, JDIMENSION blocksperrow, JDIMENSION numrows))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(JSAMPARRAY, access_virt_sarray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JSAMPARRAY, access_virt_sarray, (j_common_ptr cinfo, jvirt_sarray_ptr ptr, JDIMENSION start_row, JDIMENSION num_rows, boolean writable))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(JSAMPARRAY, alloc_sarray, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(JSAMPARRAY, alloc_sarray, (j_common_ptr cinfo, int pool_id, JDIMENSION samplesperrow, JDIMENSION numrows))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(jvirt_barray_ptr, request_virt_barray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(jvirt_barray_ptr, request_virt_barray, (j_common_ptr cinfo, int pool_id, boolean pre_zero, JDIMENSION blocksperrow, JDIMENSION numrows, JDIMENSION maxaccess))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(jvirt_sarray_ptr, request_virt_sarray, (j_common_ptr cinfo,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(jvirt_sarray_ptr, request_virt_sarray, (j_common_ptr cinfo, int pool_id, boolean pre_zero, JDIMENSION samplesperrow, JDIMENSION numrows, JDIMENSION maxaccess))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void *, alloc_small, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void *, alloc_small, (j_common_ptr cinfo, int pool_id, size_t sizeofobject))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void FAR *, alloc_large, (j_common_ptr cinfo, int pool_id,$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void FAR *, alloc_large, (j_common_ptr cinfo, int pool_id, size_t sizeofobject))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, free_pool, (j_common_ptr cinfo, int pool_id));$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void, free_pool, (j_common_ptr cinfo, int pool_id))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, realize_virt_arrays, (j_common_ptr cinfo));$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void, realize_virt_arrays, (j_common_ptr cinfo))
+jpeg_memory_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, self_destruct, (j_common_ptr cinfo));$/;"	p	struct:jpeg_memory_mgr	access:public	signature:(void, self_destruct, (j_common_ptr cinfo))
+jpeg_memory_mgr::max_alloc_chunk	jpeglib.h	/^  long max_alloc_chunk;$/;"	m	struct:jpeg_memory_mgr	access:public
+jpeg_memory_mgr::max_memory_to_use	jpeglib.h	/^  long max_memory_to_use;$/;"	m	struct:jpeg_memory_mgr	access:public
+jpeg_message_table	jpeglib.h	/^  const char * const * jpeg_message_table; \/* Library errors *\/$/;"	m	struct:jpeg_error_mgr	access:public
+jpeg_mgr_info	convert.c	/^struct jpeg_mgr_info {$/;"	s	file:
+jpeg_mgr_info::cinfo	convert.c	/^	struct jpeg_compress_struct cinfo;$/;"	m	struct:jpeg_mgr_info	typeref:struct:jpeg_mgr_info::jpeg_compress_struct	file:	access:public
+jpeg_mgr_info::jerr	convert.c	/^	struct jpeg_error_mgr jerr;$/;"	m	struct:jpeg_mgr_info	typeref:struct:jpeg_mgr_info::jpeg_error_mgr	file:	access:public
+jpeg_mgr_info::row_pointer	convert.c	/^	JSAMPROW row_pointer[1];$/;"	m	struct:jpeg_mgr_info	file:	access:public
+jpeg_mgr_info::written	convert.c	/^	unsigned long written;$/;"	m	struct:jpeg_mgr_info	file:	access:public
+jpeg_new_colormap	jpeglib.h	/^EXTERN(void) jpeg_new_colormap JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_new_colormap	jpeglib.h	908;"	d
+jpeg_progress_mgr	jpeglib.h	/^struct jpeg_progress_mgr {$/;"	s
+jpeg_progress_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, progress_monitor, (j_common_ptr cinfo));$/;"	p	struct:jpeg_progress_mgr	access:public	signature:(void, progress_monitor, (j_common_ptr cinfo))
+jpeg_progress_mgr::completed_passes	jpeglib.h	/^  int completed_passes;		\/* passes completed so far *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+jpeg_progress_mgr::pass_counter	jpeglib.h	/^  long pass_counter;		\/* work units completed in this pass *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+jpeg_progress_mgr::pass_limit	jpeglib.h	/^  long pass_limit;		\/* total number of work units in this pass *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+jpeg_progress_mgr::total_passes	jpeglib.h	/^  int total_passes;		\/* total number of passes expected *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+jpeg_quality_scaling	jpeglib.h	/^EXTERN(int) jpeg_quality_scaling JPP((int quality));$/;"	p	signature:(int quality)
+jpeg_quality_scaling	jpeglib.h	885;"	d
+jpeg_read_coefficients	jpeglib.h	/^EXTERN(jvirt_barray_ptr *) jpeg_read_coefficients JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_read_coefficients	jpeglib.h	914;"	d
+jpeg_read_header	jpeglib.h	/^EXTERN(int) jpeg_read_header JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, boolean require_image)
+jpeg_read_header	jpeglib.h	899;"	d
+jpeg_read_raw_data	jpeglib.h	/^EXTERN(JDIMENSION) jpeg_read_raw_data JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, JSAMPIMAGE data, JDIMENSION max_lines)
+jpeg_read_raw_data	jpeglib.h	903;"	d
+jpeg_read_scanlines	jpeglib.h	/^EXTERN(JDIMENSION) jpeg_read_scanlines JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, JSAMPARRAY scanlines, JDIMENSION max_lines)
+jpeg_read_scanlines	jpeglib.h	901;"	d
+jpeg_resync_to_restart	jpeglib.h	/^EXTERN(boolean) jpeg_resync_to_restart JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, int desired)
+jpeg_resync_to_restart	jpeglib.h	921;"	d
+jpeg_save_markers	jpeglib.h	/^EXTERN(void) jpeg_save_markers$/;"	p	signature:(j_decompress_ptr cinfo, int marker_code, unsigned int length_limit)
+jpeg_save_markers	jpeglib.h	912;"	d
+jpeg_saved_marker_ptr	jpeglib.h	/^typedef struct jpeg_marker_struct FAR * jpeg_saved_marker_ptr;$/;"	t	typeref:struct:FAR
+jpeg_scan_info	jpeglib.h	/^} jpeg_scan_info;$/;"	t	typeref:struct:__anon5
+jpeg_set_colorspace	jpeglib.h	/^EXTERN(void) jpeg_set_colorspace JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, J_COLOR_SPACE colorspace)
+jpeg_set_colorspace	jpeglib.h	879;"	d
+jpeg_set_defaults	jpeglib.h	/^EXTERN(void) jpeg_set_defaults JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_set_defaults	jpeglib.h	878;"	d
+jpeg_set_linear_quality	jpeglib.h	/^EXTERN(void) jpeg_set_linear_quality JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, int scale_factor, boolean force_baseline)
+jpeg_set_linear_quality	jpeglib.h	882;"	d
+jpeg_set_marker_processor	jpeglib.h	/^EXTERN(void) jpeg_set_marker_processor$/;"	p	signature:(j_decompress_ptr cinfo, int marker_code, jpeg_marker_parser_method routine)
+jpeg_set_marker_processor	jpeglib.h	913;"	d
+jpeg_set_quality	jpeglib.h	/^EXTERN(void) jpeg_set_quality JPP((j_compress_ptr cinfo, int quality,$/;"	p	signature:(j_compress_ptr cinfo, int quality, boolean force_baseline)
+jpeg_set_quality	jpeglib.h	881;"	d
+jpeg_simple_progression	jpeglib.h	/^EXTERN(void) jpeg_simple_progression JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_simple_progression	jpeglib.h	886;"	d
+jpeg_source_mgr	jpeglib.h	/^struct jpeg_source_mgr {$/;"	s
+jpeg_source_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(boolean, fill_input_buffer, (j_decompress_ptr cinfo));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(boolean, fill_input_buffer, (j_decompress_ptr cinfo))
+jpeg_source_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(boolean, resync_to_restart, (j_decompress_ptr cinfo, int desired));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(boolean, resync_to_restart, (j_decompress_ptr cinfo, int desired))
+jpeg_source_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, init_source, (j_decompress_ptr cinfo));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(void, init_source, (j_decompress_ptr cinfo))
+jpeg_source_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, skip_input_data, (j_decompress_ptr cinfo, long num_bytes));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(void, skip_input_data, (j_decompress_ptr cinfo, long num_bytes))
+jpeg_source_mgr::JMETHOD	jpeglib.h	/^  JMETHOD(void, term_source, (j_decompress_ptr cinfo));$/;"	p	struct:jpeg_source_mgr	access:public	signature:(void, term_source, (j_decompress_ptr cinfo))
+jpeg_source_mgr::bytes_in_buffer	jpeglib.h	/^  size_t bytes_in_buffer;	\/* # of bytes remaining in buffer *\/$/;"	m	struct:jpeg_source_mgr	access:public
+jpeg_source_mgr::next_input_byte	jpeglib.h	/^  const JOCTET * next_input_byte; \/* => next byte to read from buffer *\/$/;"	m	struct:jpeg_source_mgr	access:public
+jpeg_start_compress	jpeglib.h	/^EXTERN(void) jpeg_start_compress JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, boolean write_all_tables)
+jpeg_start_compress	jpeglib.h	890;"	d
+jpeg_start_decompress	jpeglib.h	/^EXTERN(boolean) jpeg_start_decompress JPP((j_decompress_ptr cinfo));$/;"	p	signature:(j_decompress_ptr cinfo)
+jpeg_start_decompress	jpeglib.h	900;"	d
+jpeg_start_output	jpeglib.h	/^EXTERN(boolean) jpeg_start_output JPP((j_decompress_ptr cinfo,$/;"	p	signature:(j_decompress_ptr cinfo, int scan_number)
+jpeg_start_output	jpeglib.h	905;"	d
+jpeg_std_error	jpeglib.h	/^EXTERN(struct jpeg_error_mgr *) jpeg_std_error$/;"	p	signature:(struct jpeg_error_mgr * err)
+jpeg_std_error	jpeglib.h	869;"	d
+jpeg_stdio_dest	jpeglib.h	/^EXTERN(void) jpeg_stdio_dest JPP((j_compress_ptr cinfo, FILE * outfile));$/;"	p	signature:(j_compress_ptr cinfo, FILE * outfile)
+jpeg_stdio_dest	jpeglib.h	874;"	d
+jpeg_stdio_src	jpeglib.h	/^EXTERN(void) jpeg_stdio_src JPP((j_decompress_ptr cinfo, FILE * infile));$/;"	p	signature:(j_decompress_ptr cinfo, FILE * infile)
+jpeg_stdio_src	jpeglib.h	875;"	d
+jpeg_suppress_tables	jpeglib.h	/^EXTERN(void) jpeg_suppress_tables JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, boolean suppress)
+jpeg_suppress_tables	jpeglib.h	887;"	d
+jpeg_upsampler	jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	s
+jpeg_upsampler::dummy	jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	m	struct:jpeg_upsampler	access:public
+jpeg_width	jpeglib.h	/^  JDIMENSION jpeg_width;	\/* scaled JPEG image width *\/$/;"	m	struct:jpeg_compress_struct	access:public
+jpeg_write_coefficients	jpeglib.h	/^EXTERN(void) jpeg_write_coefficients JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, jvirt_barray_ptr * coef_arrays)
+jpeg_write_coefficients	jpeglib.h	915;"	d
+jpeg_write_m_byte	jpeglib.h	/^EXTERN(void) jpeg_write_m_byte$/;"	p	signature:(j_compress_ptr cinfo, int val)
+jpeg_write_m_byte	jpeglib.h	897;"	d
+jpeg_write_m_header	jpeglib.h	/^EXTERN(void) jpeg_write_m_header$/;"	p	signature:(j_compress_ptr cinfo, int marker, unsigned int datalen)
+jpeg_write_m_header	jpeglib.h	896;"	d
+jpeg_write_marker	jpeglib.h	/^EXTERN(void) jpeg_write_marker$/;"	p	signature:(j_compress_ptr cinfo, int marker, const JOCTET * dataptr, unsigned int datalen)
+jpeg_write_marker	jpeglib.h	895;"	d
+jpeg_write_raw_data	jpeglib.h	/^EXTERN(JDIMENSION) jpeg_write_raw_data JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, JSAMPIMAGE data, JDIMENSION num_lines)
+jpeg_write_raw_data	jpeglib.h	894;"	d
+jpeg_write_scanlines	jpeglib.h	/^EXTERN(JDIMENSION) jpeg_write_scanlines JPP((j_compress_ptr cinfo,$/;"	p	signature:(j_compress_ptr cinfo, JSAMPARRAY scanlines, JDIMENSION num_lines)
+jpeg_write_scanlines	jpeglib.h	891;"	d
+jpeg_write_tables	jpeglib.h	/^EXTERN(void) jpeg_write_tables JPP((j_compress_ptr cinfo));$/;"	p	signature:(j_compress_ptr cinfo)
+jpeg_write_tables	jpeglib.h	898;"	d
+jvirt_barray_control	jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	s
+jvirt_barray_control::dummy	jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	m	struct:jvirt_barray_control	access:public
+jvirt_barray_ptr	jpeglib.h	/^typedef struct jvirt_barray_control * jvirt_barray_ptr;$/;"	t	typeref:struct:jvirt_barray_control
+jvirt_sarray_control	jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	s
+jvirt_sarray_control::dummy	jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	m	struct:jvirt_sarray_control	access:public
+jvirt_sarray_ptr	jpeglib.h	/^typedef struct jvirt_sarray_control * jvirt_sarray_ptr;$/;"	t	typeref:struct:jvirt_sarray_control
+last_addon_message	jpeglib.h	/^  int last_addon_message;	\/* code for last string in addon table *\/$/;"	m	struct:jpeg_error_mgr	access:public
+last_col_width	jpeglib.h	/^  int last_col_width;		\/* # of non-dummy blocks across in last MCU *\/$/;"	m	struct:__anon4	access:public
+last_jpeg_message	jpeglib.h	/^  int last_jpeg_message;    \/* Table contains strings 0..last_jpeg_message *\/$/;"	m	struct:jpeg_error_mgr	access:public
+last_row_height	jpeglib.h	/^  int last_row_height;		\/* # of non-dummy blocks down in last MCU *\/$/;"	m	struct:__anon4	access:public
+lim_Se	jpeglib.h	/^  int lim_Se;			\/* min( Se, DCTSIZE2-1 ) *\/$/;"	m	struct:jpeg_compress_struct	access:public
+lim_Se	jpeglib.h	/^  int lim_Se;			\/* min( Se, DCTSIZE2-1 ) for entropy decode *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+main	convert.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+main	jpeglib.h	/^  struct jpeg_c_main_controller * main;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_main_controller	access:public
+main	jpeglib.h	/^  struct jpeg_d_main_controller * main;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_main_controller	access:public
+main	test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+marker	jpeglib.h	/^  UINT8 marker;			\/* marker code: JPEG_COM, or JPEG_APP0+n *\/$/;"	m	struct:jpeg_marker_struct	access:public
+marker	jpeglib.h	/^  struct jpeg_marker_reader * marker;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_marker_reader	access:public
+marker	jpeglib.h	/^  struct jpeg_marker_writer * marker;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_marker_writer	access:public
+marker_list	jpeglib.h	/^  jpeg_saved_marker_ptr marker_list; \/* Head of list of saved markers *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+master	jpeglib.h	/^  struct jpeg_comp_master * master;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_comp_master	access:public
+master	jpeglib.h	/^  struct jpeg_decomp_master * master;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_decomp_master	access:public
+max_alloc_chunk	jpeglib.h	/^  long max_alloc_chunk;$/;"	m	struct:jpeg_memory_mgr	access:public
+max_h_samp_factor	jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_compress_struct	access:public
+max_h_samp_factor	jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+max_memory_to_use	jpeglib.h	/^  long max_memory_to_use;$/;"	m	struct:jpeg_memory_mgr	access:public
+max_v_samp_factor	jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_compress_struct	access:public
+max_v_samp_factor	jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+min_DCT_h_scaled_size	jpeglib.h	/^  int min_DCT_h_scaled_size;	\/* smallest DCT_h_scaled_size of any component *\/$/;"	m	struct:jpeg_compress_struct	access:public
+min_DCT_h_scaled_size	jpeglib.h	/^  int min_DCT_h_scaled_size;	\/* smallest DCT_h_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+min_DCT_v_scaled_size	jpeglib.h	/^  int min_DCT_v_scaled_size;	\/* smallest DCT_v_scaled_size of any component *\/$/;"	m	struct:jpeg_compress_struct	access:public
+min_DCT_v_scaled_size	jpeglib.h	/^  int min_DCT_v_scaled_size;	\/* smallest DCT_v_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+msg_code	jpeglib.h	/^  int msg_code;$/;"	m	struct:jpeg_error_mgr	access:public
+msg_parm	jpeglib.h	/^  } msg_parm;$/;"	m	struct:jpeg_error_mgr	typeref:union:jpeg_error_mgr::__anon9	access:public
+natural_order	jpeglib.h	/^  const int * natural_order;	\/* natural-order position array *\/$/;"	m	struct:jpeg_compress_struct	access:public
+natural_order	jpeglib.h	/^  const int * natural_order; \/* natural-order position array for entropy decode *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+next	jpeglib.h	/^  jpeg_saved_marker_ptr next;	\/* next in list, or NULL *\/$/;"	m	struct:jpeg_marker_struct	access:public
+next_input_byte	jpeglib.h	/^  const JOCTET * next_input_byte; \/* => next byte to read from buffer *\/$/;"	m	struct:jpeg_source_mgr	access:public
+next_output_byte	jpeglib.h	/^  JOCTET * next_output_byte;	\/* => next byte to write in buffer *\/$/;"	m	struct:jpeg_destination_mgr	access:public
+next_scanline	jpeglib.h	/^  JDIMENSION next_scanline;	\/* 0 .. image_height-1  *\/$/;"	m	struct:jpeg_compress_struct	access:public
+num_components	jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+num_components	jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+num_scans	jpeglib.h	/^  int num_scans;		\/* # of entries in scan_info array *\/$/;"	m	struct:jpeg_compress_struct	access:public
+num_warnings	jpeglib.h	/^  long num_warnings;		\/* number of corrupt-data warnings *\/$/;"	m	struct:jpeg_error_mgr	access:public
+optimize_coding	jpeglib.h	/^  boolean optimize_coding;	\/* TRUE=optimize entropy encoding parms *\/$/;"	m	struct:jpeg_compress_struct	access:public
+original_length	jpeglib.h	/^  unsigned int original_length;	\/* # bytes of data in the file *\/$/;"	m	struct:jpeg_marker_struct	access:public
+out_color_components	jpeglib.h	/^  int out_color_components;	\/* # of color components in out_color_space *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+out_color_space	jpeglib.h	/^  J_COLOR_SPACE out_color_space; \/* colorspace for output *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+outbuffer	convert.c	/^	unsigned char *outbuffer;$/;"	m	struct:__anon1	file:	access:public
+outbuffer_cursor	convert.c	/^	unsigned char *outbuffer_cursor;$/;"	m	struct:__anon1	file:	access:public
+outbuffer_size	convert.c	/^	int outbuffer_size;$/;"	m	struct:__anon1	file:	access:public
+output_components	jpeglib.h	/^  int output_components;	\/* # of color components returned *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+output_gamma	jpeglib.h	/^  double output_gamma;		\/* image gamma wanted in output *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+output_height	jpeglib.h	/^  JDIMENSION output_height;	\/* scaled image height *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+output_iMCU_row	jpeglib.h	/^  JDIMENSION output_iMCU_row;	\/* Number of iMCU rows read *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+output_scan_number	jpeglib.h	/^  int output_scan_number;	\/* Nominal scan number being displayed *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+output_scanline	jpeglib.h	/^  JDIMENSION output_scanline;	\/* 0 .. output_height-1  *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+output_width	jpeglib.h	/^  JDIMENSION output_width;	\/* scaled image width *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+pass_counter	jpeglib.h	/^  long pass_counter;		\/* work units completed in this pass *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+pass_limit	jpeglib.h	/^  long pass_limit;		\/* total number of work units in this pass *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+post	jpeglib.h	/^  struct jpeg_d_post_controller * post;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_post_controller	access:public
+prep	jpeglib.h	/^  struct jpeg_c_prep_controller * prep;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_prep_controller	access:public
+progressive_mode	jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if SOFn specifies progressive mode *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+progressive_mode	jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if scan script uses progressive mode *\/$/;"	m	struct:jpeg_compress_struct	access:public
+pub	convert.c	/^	struct jpeg_destination_mgr pub;$/;"	m	struct:__anon1	typeref:struct:__anon1::jpeg_destination_mgr	file:	access:public
+q_scale_factor	jpeglib.h	/^  int q_scale_factor[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+quant_table	jpeglib.h	/^  JQUANT_TBL * quant_table;$/;"	m	struct:__anon4	access:public
+quant_tbl_no	jpeglib.h	/^  int quant_tbl_no;		\/* quantization table selector (0..3) *\/$/;"	m	struct:__anon4	access:public
+quant_tbl_ptrs	jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct	access:public
+quant_tbl_ptrs	jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_decompress_struct	access:public
+quantize_colors	jpeglib.h	/^  boolean quantize_colors;	\/* TRUE=colormapped output wanted *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+quantval	jpeglib.h	/^  UINT16 quantval[DCTSIZE2];	\/* quantization step for each coefficient *\/$/;"	m	struct:__anon2	access:public
+radj	convert.c	/^static short radj[] = {$/;"	v	file:
+raw_data_in	jpeglib.h	/^  boolean raw_data_in;		\/* TRUE=caller supplies downsampled data *\/$/;"	m	struct:jpeg_compress_struct	access:public
+raw_data_out	jpeglib.h	/^  boolean raw_data_out;		\/* TRUE=downsampled data wanted *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+rec_outbuf_height	jpeglib.h	/^  int rec_outbuf_height;	\/* min recommended height of scanline buffer *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+restart_in_rows	jpeglib.h	/^  int restart_in_rows;		\/* if > 0, MCU rows per restart interval *\/$/;"	m	struct:jpeg_compress_struct	access:public
+restart_interval	jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart interval, or 0 for no restart *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+restart_interval	jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart, or 0 for no restart *\/$/;"	m	struct:jpeg_compress_struct	access:public
+row_pointer	convert.c	/^	JSAMPROW row_pointer[1];$/;"	m	struct:jpeg_mgr_info	file:	access:public
+s	jpeglib.h	/^    char s[JMSG_STR_PARM_MAX];$/;"	m	union:jpeg_error_mgr::__anon9	access:public
+sample_range_limit	jpeglib.h	/^  JSAMPLE * sample_range_limit; \/* table for fast range-limiting *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+saw_Adobe_marker	jpeglib.h	/^  boolean saw_Adobe_marker;	\/* TRUE iff an Adobe APP14 marker was found *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+saw_JFIF_marker	jpeglib.h	/^  boolean saw_JFIF_marker;	\/* TRUE iff a JFIF APP0 marker was found *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+scale_denom	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+scale_denom	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+scale_num	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_compress_struct	access:public
+scale_num	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+scan_info	jpeglib.h	/^  const jpeg_scan_info * scan_info; \/* script for multi-scan file, or NULL *\/$/;"	m	struct:jpeg_compress_struct	access:public
+script_space	jpeglib.h	/^  jpeg_scan_info * script_space; \/* workspace for jpeg_simple_progression *\/$/;"	m	struct:jpeg_compress_struct	access:public
+script_space_size	jpeglib.h	/^  int script_space_size;$/;"	m	struct:jpeg_compress_struct	access:public
+sent_table	jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon2	access:public
+sent_table	jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon3	access:public
+smoothing_factor	jpeglib.h	/^  int smoothing_factor;		\/* 1..100, or 0 for no input smoothing *\/$/;"	m	struct:jpeg_compress_struct	access:public
+src	jpeglib.h	/^  struct jpeg_source_mgr * src;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_source_mgr	access:public
+total_iMCU_rows	jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows in image *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+total_iMCU_rows	jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows to be input to coef ctlr *\/$/;"	m	struct:jpeg_compress_struct	access:public
+total_passes	jpeglib.h	/^  int total_passes;		\/* total number of passes expected *\/$/;"	m	struct:jpeg_progress_mgr	access:public
+trace_level	jpeglib.h	/^  int trace_level;		\/* max msg_level that will be displayed *\/$/;"	m	struct:jpeg_error_mgr	access:public
+two_pass_quantize	jpeglib.h	/^  boolean two_pass_quantize;	\/* TRUE=use two-pass color quantization *\/$/;"	m	struct:jpeg_decompress_struct	access:public
+unread_marker	jpeglib.h	/^  int unread_marker;$/;"	m	struct:jpeg_decompress_struct	access:public
+upsample	jpeglib.h	/^  struct jpeg_upsampler * upsample;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_upsampler	access:public
+v_samp_factor	jpeglib.h	/^  int v_samp_factor;		\/* vertical sampling factor (1..4) *\/$/;"	m	struct:__anon4	access:public
+width_in_blocks	jpeglib.h	/^  JDIMENSION width_in_blocks;$/;"	m	struct:__anon4	access:public
+write_Adobe_marker	jpeglib.h	/^  boolean write_Adobe_marker;	\/* should an Adobe marker be written? *\/$/;"	m	struct:jpeg_compress_struct	access:public
+write_JFIF_header	jpeglib.h	/^  boolean write_JFIF_header;	\/* should a JFIF marker be written? *\/$/;"	m	struct:jpeg_compress_struct	access:public
+write_YUV_JPEG_file	jpeg.c	/^void write_YUV_JPEG_file (char * filename, unsigned char* yuvData, int quality,$/;"	f	signature:(char * filename, unsigned char* yuvData, int quality, int image_width,int image_height)
+written	convert.c	/^	int *written;$/;"	m	struct:__anon1	file:	access:public
+written	convert.c	/^	unsigned long written;$/;"	m	struct:jpeg_mgr_info	file:	access:public

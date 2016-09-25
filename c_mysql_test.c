@@ -101,13 +101,13 @@ int main(int argc, char *argv[])
 	/* 输出整个表的内容 */
 	while(1)
 	{
-		my_row = mysql_fetch_row(my_res);
+		my_row = mysql_fetch_row(my_res);//返回一个数组值，当前行数据信息
 		if (NULL == my_row)
 		{
-			printf("mysql_fetch_row\n");
-			break;
+			//printf("mysql_fetch_row\n");
+			break;//到空行是跳出结束
 		}
-		for (i = 0; i < rows; i++)
+		for (i = 0; i < rows; i++)//打印当前行每一列的值
 		{
 			if (NULL == my_row[i])
 			{

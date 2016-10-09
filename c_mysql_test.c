@@ -23,7 +23,7 @@ void error_quit(const char *str, MYSQL *connect)
 int main(int argc, char *argv[])
 {
 	printf("hello world\n");
-	MYSQL *my_con = malloc(sizeof(MYSQL));
+	MYSQL *my_con = malloc(sizeof(MYSQL));//申请空间
 	MYSQL_RES *my_res;
 	MYSQL_FIELD *my_field;
 	MYSQL_ROW my_row;

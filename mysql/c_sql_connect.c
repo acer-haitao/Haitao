@@ -1,8 +1,8 @@
 /*************************************************************************
-    > File Name: c_sql_connect.c
-    > Author: yuhaitao
-    > Mail:acer_yuhaitao@163.com 
-    > Created Time: Sun 09 Oct 2016 04:20:48 AM PDT
+  > File Name: c_sql_connect.c
+  > Author: yuhaitao
+  > Mail:acer_yuhaitao@163.com 
+  > Created Time: Sun 09 Oct 2016 04:20:48 AM PDT
  ************************************************************************/
 
 #include <stdio.h>
@@ -10,6 +10,8 @@
 #include <string.h>
 #include <mysql/mysql.h>
 #include <unistd.h>
+#include <termios.h>
+#include <errno.h>
 
 #define N 100
 
@@ -26,6 +28,21 @@ int main(int argc, char *argv[])
 	stu stu_test;
 	char SQL[1024] = {0};
 
+//	system("stty erase ^H");
+
+#if 0//解决输入 退格删除不回显问题 --未实现bug待解决--2016-10-11
+	struct termios term;//定义结构体
+	if (tcgetattr(STDIN_FILENO, &term) == -1)//get得到系统termios设置
+	{
+		printf("termios error:%s\n",strerror(errno));
+		return -1;
+	}
+	term.c_cc[VERASE] = '\b';//退格的ASIIC码
+	if (tcsetattr(STDIN_FILENO, TCSANOW, &term) == -1)//set设置系统
+	{
+		printf("termios error:%s\n",strerror(errno));
+	}
+#endif 
 	mysql_init(&mysql);//初始化 (初始化一个socket的TCP连接)
 	connect = mysql_real_connect(&mysql,"localhost","root","haitao","mytest",0,0,0);
 	if (connect == NULL)
@@ -36,7 +53,7 @@ int main(int argc, char *argv[])
 	{
 		printf("链接数据库成功\n");
 	}
-	
+
 	if ((mysql_query(connect, "set names utf8;")) != 0)//设置字符集
 	{
 		printf("set names :%s\n",mysql_error(&mysql));
@@ -46,7 +63,7 @@ int main(int argc, char *argv[])
 	{
 		printf("设置字符集成功\n");
 	}
-	
+
 	if ((mysql_query(connect,"create table stu1(name varchar(100), age int, class varchar(100), addr varchar(100));")) != 0)
 	{
 		printf("Created :%s\n",mysql_error(&mysql));
@@ -55,7 +72,7 @@ int main(int argc, char *argv[])
 	{
 		printf("创建表成功\n");
 	}
-#if 1 //插入数据
+#if 0 //插入数据
 	puts("请输入要插入的姓名,年龄,班级,地址--> 张三,19,C++,北京海淀");
 	scanf("%s%d%s%s",stu_test.name, &stu_test.age, stu_test.class, stu_test.addr);
 	printf("%s-%d-%s-%s\n",stu_test.name, stu_test.age, stu_test.class, stu_test.addr);
@@ -82,7 +99,7 @@ int main(int argc, char *argv[])
 	memset(stu_test.name, 0, sizeof(stu_test.name));
 	read(STDIN_FILENO, stu_test.name, sizeof(stu_test.name));//从屏幕输入
 	stu_test.name[strlen(stu_test.name) - 1] = 0;//解决最后换行符问题
-	
+
 	memset(SQL, 0, sizeof(SQL));
 	sprintf(SQL, "delete from stu1 where name = '%s';",stu_test.name);
 	printf("%s\n",SQL);

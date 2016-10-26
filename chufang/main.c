@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	char Newfile[N] = {0};
 	char buf[N] = { 0 };
 	char update[N] = { 0 }; 
-
+	
 	for(i = 0; i < 2; i++)
 	{
 		sprintf(Newfile, "Prescription2016092300%d.xml",i);
@@ -43,41 +43,51 @@ int main(int argc, char *argv[])
 			fputc(ch,out);
 		}
 #endif
-		while(fgets(buf, N, in))
+		while(fgets(buf, N, in) != NULL)
 		{
 #if 1
 			linesize = strlen(buf);
+			printf("%d\n",linesize);
 			if(buf[linesize - 1] == '\n')
 			{
+			//	printf("HELLs\n");
 				buf[linesize - 1] = '\0';
 			}
 #endif
 			if ((p = strstr(buf, "测试")) != NULL)
 			{
-			//	printf("%s\n", p);
-				sprintf(update, "<PATIENT_NAME>测试%d</PATIENT_NAME>", i);
-				fwrite(update, linesize, 1, out);
+				//	printf("%s\n", p);
+				sprintf(update, "<PATIENT_NAME>测试%d</PATIENT_NAME>\n", i);
+				//	fwrite(update, linesize, 1, out);
+				fputs(update, out);
+			}
+			else if((p = strstr(buf, "<PATIENT_ID>")) != NULL)
+			{
+				sprintf(update, "<PATIENT_ID>%d</PATIENT_ID>\n", i);
+				fputs(update, out);
 			}
 			else if((p = strstr(buf, "PRESCRIPTION_ID=")) != NULL)
 			{
-			//	printf("%s\n",p);
-			//	sprintf(update, " <PRESCRIPTION PRESCRIPTION_ID="2016092300%d" PRESCRIPTION_DATE_TIME="2016-03-17T00:00:00" ORDERED_BY="中医科门诊" PRESCRIBER="任芳" PRESCRIPTION_SOURCE="0" DIAGNOSIS="乏力(气血两虚)">",i);
-			//	fwrite(update, N, buf);
+				//	printf("%s\n",p);
+				sprintf(update, " <PRESCRIPTION PRESCRIPTION_ID=\"2016092300%d\" PRESCRIPTION_DATE_TIME=\"2016-03-17T00:00:00\" ORDERED_BY=\"中医科门诊\" PRESCRIBER=\"任芳\" PRESCRIPTION_SOURCE=\"0\" DIAGNOSIS=\"乏力(气血两虚)\">",i);
+				//	fwrite(update, N, buf);
+				fputs(update, out);
 			}
 			else
 			{
-				fwrite(buf, linesize, 1, out);
+				//	fwrite(buf, linesize, 1, out);
+				fputs(buf, out);
 			}
 		}
 
 		fclose(in);  
 		fclose(out);  
 
-#if 0
+#if 1
 		unlink(Newfile); /*删除test.txt*/
-	//	rename("f:\\back.txt","test.txt"); /*改名*/
+		//	rename("f:\\back.txt","test.txt"); /*改名*/
 #endif
-		printf("ok!!!!!!\n");
+		printf("Prescription2016092300%d---->ok!!!!!!\n",i);
 	}
 	return 0;
 }

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RESULT>
+  <EXECUTE_RESULT>TRUE</EXECUTE_RESULT>
+  <RETURN_VALUE>
+
+    <PACKAGE DISPENSARY="110407">
+      <PATIENT_INFO>
+        <PATIENT_ID>101</PATIENT_ID>
+        <INP_NO>211549</INP_NO>
+        <PATIENT_NAME>测试101</PATIENT_NAME>
+        <SEX>女</SEX>
+        <DATE_OF_BIRTH>1954-01-01T00:00:00</DATE_OF_BIRTH>
+        <IDENTITY>师职干部</IDENTITY>
+        <CHARGE_TYPE>军队医改</CHARGE_TYPE>
+        <INSURANCE_TYPE>免费医疗</INSURANCE_TYPE>
+      </PATIENT_INFO>
+      <PRESCRIPTIONS>
+        <PRESCRIPTION PRESCRIPTION_ID="2016092300101" PRESCRIPTION_DATE_TIME="2016-03-17T00:00:00" ORDERED_BY="中医科门诊" PRESCRIBER="任芳" PRESCRIPTION_SOURCE="0" DIAGNOSIS="乏力(气血两虚)">
+          <ITEM ITEM_ID="1">
+            <FREQUENCY>1剂/日</FREQUENCY>
+            <ROUTE>水煎服</ROUTE>
+            <DOSE>30.0000</DOSE>
+            <DOSE_UNIT>g</DOSE_UNIT>
+            <INSTRUCTIONS />
+            <MEDICATION_CODE>Z1</MEDICATION_CODE>
+            <MEDICATION_NAME>白花蛇舌草</MEDICATION_NAME>
+            <MEDICATION_SPEC>/</MEDICATION_SPEC>
+            <FIRM_NAME>绿野百草</FIRM_NAME>
+            <QUANTITY>30</QUANTITY>
+            <MEDICATION_UNIT>g</MEDICATION_UNIT>
+            <REPETITION>5</REPETITION>
+            <LOCATION>H-04-2</LOCATION>
+            <MEMO />
+          </ITEM>
+          <ITEM ITEM_ID="2">
+            <FREQUENCY>1剂/日</FREQUENCY>
+            <ROUTE>水煎服</ROUTE>
+            <DOSE>15.0000</DOSE>
+            <DOSE_UNIT>g</DOSE_UNIT>
+            <INSTRUCTIONS />
+            <MEDICATION_CODE>Z2</MEDICATION_CODE>
+            <MEDICATION_NAME>川牛膝</MEDICATION_NAME>
+            <MEDICATION_SPEC>/</MEDICATION_SPEC>
+            <FIRM_NAME>绿野百草</FIRM_NAME>
+            <QUANTITY>15</QUANTITY>
+            <MEDICATION_UNIT>g</MEDICATION_UNIT>
+            <REPETITION>5</REPETITION>
+            <LOCATION>GL-4-1</LOCATION>
+            <MEMO>另包</MEMO>
+          </ITEM>
+          <ITEM ITEM_ID="3">
+            <FREQUENCY>1剂/日</FREQUENCY>
+            <ROUTE>水煎服</ROUTE>
+            <DOSE>15.0000</DOSE>
+            <DOSE_UNIT>g</DOSE_UNIT>
+            <INSTRUCTIONS />
+            <MEDICATION_CODE>Z3</MEDICATION_CODE>
+            <MEDICATION_NAME>天葵子</MEDICATION_NAME>
+            <MEDICATION_SPEC>/</MEDICATION_SPEC>
+            <FIRM_NAME>绿野百草</FIRM_NAME>
+            <QUANTITY>15</QUANTITY>
+            <MEDICATION_UNIT>g</MEDICATION_UNIT>
+            <REPETITION>5</REPETITION>
+            <LOCATION>J-10-3</LOCATION>
+            <MEMO>另包</MEMO>
+          </ITEM>
+		  <ITEM ITEM_ID="4">
+            <FREQUENCY>1剂/日</FREQUENCY>
+            <ROUTE>水煎服</ROUTE>
+            <DOSE>6.0000</DOSE>
+            <DOSE_UNIT>g</DOSE_UNIT>
+            <INSTRUCTIONS />
+            <MEDICATION_CODE>Z4</MEDICATION_CODE>
+            <MEDICATION_NAME>麻黄</MEDICATION_NAME>
+            <MEDICATION_SPEC>/</MEDICATION_SPEC>
+            <FIRM_NAME>绿野百草</FIRM_NAME>
+            <QUANTITY>6</QUANTITY>
+            <MEDICATION_UNIT>g</MEDICATION_UNIT>
+            <REPETITION>5</REPETITION>
+            <LOCATION>J-10-3</LOCATION>
+            <MEMO>另包</MEMO>
+          </ITEM>
+		  <ITEM ITEM_ID="5">
+            <FREQUENCY>1剂/日</FREQUENCY>
+            <ROUTE>水煎服</ROUTE>
+            <DOSE>40.0000</DOSE>
+            <DOSE_UNIT>g</DOSE_UNIT>
+            <INSTRUCTIONS />
+            <MEDICATION_CODE>Z5</MEDICATION_CODE>
+            <MEDICATION_NAME>白英</MEDICATION_NAME>
+            <MEDICATION_SPEC>/</MEDICATION_SPEC>
+            <FIRM_NAME>绿野百草</FIRM_NAME>
+            <QUANTITY>40</QUANTITY>
+            <MEDICATION_UNIT>g</MEDICATION_UNIT>
+            <REPETITION>5</REPETITION>
+            <LOCATION>J-10-3</LOCATION>
+            <MEMO>另包</MEMO>
+          </ITEM>
+		  
+        </PRESCRIPTION>
+      </PRESCRIPTIONS>
+    </PACKAGE>
+  </RETURN_VALUE>
+</RESULT>
